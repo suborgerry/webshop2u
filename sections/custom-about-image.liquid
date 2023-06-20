@@ -1,0 +1,57 @@
+{{ 'custom-about-image.css' | asset_url | stylesheet_tag }}
+<div style="overflow:hidden;" class="hide-mobile page-width">
+  {%- if section.settings.image != blank -%}
+    <div class="custom-about-image">
+      <img src="{{ section.settings.image | img_url: 'master' }}">
+      {%- if section.settings.button_text != blank -%}
+      <a href="{{ section.settings.button_url }}" class="custom-about-image__url">
+        {{ section.settings.button_text }}
+      </a>
+      {%- endif -%}
+      {%- if section.settings.text != blank -%}
+        <div class="custom-about-image__text">
+          {{ section.settings.text }}
+        </div>
+      {%- endif -%}
+    </div>
+  {%- endif -%}
+</div>
+{% schema %}
+  {
+    "name": "Custom about image",
+    "settings": [
+      {
+        "type": "text",
+        "id": "button_text",
+        "label": "Button text",
+        "default": "Button label"
+      },
+      {
+        "type": "url",
+        "id": "button_url",
+        "label": "Button url"
+      },
+      {
+        "type": "inline_richtext",
+        "id": "text",
+        "label": "Text"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Image"
+      }
+    ],
+    "presets":[
+      {
+        "name":"Custom about image"
+      }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

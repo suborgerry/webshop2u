@@ -1,0 +1,86 @@
+{{ 'three-col.css' | asset_url | stylesheet_tag }}
+
+<div class="page-width three-col-padding" >
+    <div class="three-col-wrapper">
+        {%- for block in section.blocks -%}
+            <div class="thee-col-wrapper__item">
+                <div class="three-col-wrapper__title">
+                    {{ block.settings.title }}
+                </div>
+                <div class="three-col-wrapper__subtitle">
+                    {{ block.settings.subtitle }}
+                </div>
+                <div class="three-col-wrapper__price">
+                    {{ block.settings.price }}
+                </div>
+                <div class="three-col-wrapper__text">
+                    {{ block.settings.text | replace:'✅', '<span class="status-wrapper">✅</span>' | replace:'❌', '<span class="status-wrapper">❌</span>'  | replace:'📝', '<span class="status-wrapper">📝</span>' }}
+                </div>
+            </div>
+        {%- endfor -%}
+    </div>
+
+    <div class="btn-info">
+        <a class="button" href="{{ section.settings.btn_url }}">
+            {{ section.settings.button_text }}
+        </a>
+    </div>
+</div>
+
+
+{% schema %}
+    {
+        "name": "Three col",
+        "max_blocks": 3,
+        "settings": [
+            {
+                "type": "text",
+                "id": "button_text",
+                "label": "BTN Text",
+                "default": "Show more"
+            },
+            {
+                "type": "url",
+                "id": "btn_url",
+                "label": "Button url"
+            }
+        ],
+        "blocks": [
+            {
+                "type": "block",
+                "name": "Block",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title",
+                        "default": "Standard WebSite"
+                    },
+                    {
+                        "type": "text",
+                        "id": "subtitle",
+                        "label": "Subtitle",
+                        "default": "Subtitle"
+                    },
+                    {
+                        "type": "text",
+                        "id": "price",
+                        "label": "Price",
+                        "default": "$299"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "text",
+                        "label": "Text",
+                        "default": "<p>lorem ipsum</p>"
+                    }
+                ]
+            }
+        ],
+        "presets":[
+            {
+                "name":"Three col"
+            }
+        ]
+    }
+{% endschema %}

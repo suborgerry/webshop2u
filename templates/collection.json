@@ -1,0 +1,82 @@
+{
+  "sections": {
+    "main-collection-banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "ef933f9b-fe78-42d7-b57a-02170033276f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18275873784087__ef933f9b-fe78-42d7-b57a-02170033276f-16795586425fcd8401-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Catalog<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18275873784087__ef933f9b-fe78-42d7-b57a-02170033276f-16795586425fcd8401-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Looking to create a website that's professional, modern, and visually stunning? Look no further! <\/p><p>Our collection features a wide variety of Shopify templates designed for kids' stores, clothing shops, and homeware storefronts your customers won’t overlook! <\/p><p>Each template is fully customizable, allowing you to add your own branding, images, and content to create a website that perfectly reflects your unique style and message.<\/p><p>So why wait? Check out our selection of website templates today and start building the website of your dreams!<\/p>"
+          }
+        },
+        "template--18275873784087__ef933f9b-fe78-42d7-b57a-02170033276f-16795586425fcd8401-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18275873784087__ef933f9b-fe78-42d7-b57a-02170033276f-16795586425fcd8401-0",
+        "template--18275873784087__ef933f9b-fe78-42d7-b57a-02170033276f-16795586425fcd8401-1",
+        "template--18275873784087__ef933f9b-fe78-42d7-b57a-02170033276f-16795586425fcd8401-2"
+      ],
+      "custom_css": [
+        "p {color: white; font-size: 90%; line-height: 100%;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "main-collection-product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 20,
+        "columns_desktop": 3,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "enable_filtering": true,
+        "filter_type": "horizontal",
+        "enable_sorting": true,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 68
+      }
+    }
+  },
+  "order": [
+    "main-collection-banner",
+    "ef933f9b-fe78-42d7-b57a-02170033276f",
+    "main-collection-product-grid"
+  ]
+}

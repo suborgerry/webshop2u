@@ -1,0 +1,222 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "4aff525e-4b3b-4900-bf21-36d687074bc1": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18278098731287__4aff525e-4b3b-4900-bf21-36d687074bc1-16795586425fcd8401-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>About<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18278098731287__4aff525e-4b3b-4900-bf21-36d687074bc1-16795586425fcd8401-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We were initially inspired to launch our project in order to address one of the main pain points of Shopify sellers - the lack of catchy and UX-friendly website templates that can really SELL. <\/p>"
+          }
+        },
+        "template--18278098731287__4aff525e-4b3b-4900-bf21-36d687074bc1-16795586425fcd8401-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Choose a template",
+            "button_link": "shopify:\/\/collections\/all",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18278098731287__4aff525e-4b3b-4900-bf21-36d687074bc1-16795586425fcd8401-0",
+        "template--18278098731287__4aff525e-4b3b-4900-bf21-36d687074bc1-16795586425fcd8401-1",
+        "template--18278098731287__4aff525e-4b3b-4900-bf21-36d687074bc1-16795586425fcd8401-2"
+      ],
+      "custom_css": [
+        "p {color: white;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "9074737d-e273-49ae-b9e9-d185f1cb5e44": {
+      "type": "image-banner",
+      "disabled": true,
+      "blocks": {
+        "template--18278098731287__9074737d-e273-49ae-b9e9-d185f1cb5e44-167955898009af42e4-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--18278098731287__9074737d-e273-49ae-b9e9-d185f1cb5e44-167955898009af42e4-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--18278098731287__9074737d-e273-49ae-b9e9-d185f1cb5e44-167955898009af42e4-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18278098731287__9074737d-e273-49ae-b9e9-d185f1cb5e44-167955898009af42e4-0",
+        "template--18278098731287__9074737d-e273-49ae-b9e9-d185f1cb5e44-167955898009af42e4-1",
+        "template--18278098731287__9074737d-e273-49ae-b9e9-d185f1cb5e44-167955898009af42e4-2"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "d49f3626-81da-4548-a477-28e0aa39c295": {
+      "type": "custom-about-image",
+      "settings": {
+        "button_text": "Choose a template",
+        "button_url": "shopify:\/\/collections\/all",
+        "text": "Visual representation of yourproduct online is the first thingyour potential customers deal with.However, it determines whetherthey’d purchase from you or not. This isespecially true for kids' stores, clothingshops, and homeware storefronts as theirsales are extremely visually-driven.We are on a mission to help Shopify sellersto leverage their online presenceand provide them with appealing,personalized, and user-friendly Shopifytemplates for clothing, kids´ products,and homeware shops. Each template iscustomized as per our customers’ needs and ultimate ease of use for potential buyers (visit the Service Packages section for more info).",
+        "image": "shopify:\/\/shop_images\/1111_1.png"
+      }
+    },
+    "fa4c4769-1d3b-4502-a953-3ee7e9dc8d7b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--18278098731287__fa4c4769-1d3b-4502-a953-3ee7e9dc8d7b-16795588238ee5362c-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--18278098731287__fa4c4769-1d3b-4502-a953-3ee7e9dc8d7b-16795588238ee5362c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Visual representation of your product online is the first thing your potential customers deal with. However, it determines whether they’d purchase from you or not. This is especially true for kids' stores, clothing shops, and homeware storefronts as their sales are extremely visually-driven. <\/p><p>We are on a mission to help Shopify sellers to leverage their online presence and provide them with appealing, personalized, and user-friendly Shopify templates for clothing, kids´ products, and homeware shops. Each template is customized as per our customers’ needs and ultimate ease of use for potential buyers (visit the Service Packages section for more info).  <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--18278098731287__fa4c4769-1d3b-4502-a953-3ee7e9dc8d7b-16795588238ee5362c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Choose a template",
+            "button_link": "shopify:\/\/collections\/all"
+          }
+        }
+      },
+      "block_order": [
+        "template--18278098731287__fa4c4769-1d3b-4502-a953-3ee7e9dc8d7b-16795588238ee5362c-0",
+        "template--18278098731287__fa4c4769-1d3b-4502-a953-3ee7e9dc8d7b-16795588238ee5362c-1",
+        "template--18278098731287__fa4c4769-1d3b-4502-a953-3ee7e9dc8d7b-16795588238ee5362c-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/laptop_1_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "99b01e7a-93b8-4ad4-8fb3-74b672774b72": {
+      "type": "contact-form",
+      "custom_css": [
+        "h2 {text-align: center;}"
+      ],
+      "settings": {
+        "heading": "Contact us",
+        "heading_size": "h1",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "6999a54e-f20a-41cd-ba9c-ecda002c51b4": {
+      "type": "newsletter",
+      "blocks": {
+        "template--18278098731287__6999a54e-f20a-41cd-ba9c-ecda002c51b4-1679559093ad447cc7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SUBSCRIBE TO STAY UPDATED ON OUR FRESH SHOPIFY TEMPLATE ARRIVALS AND EXCLUSIVE DEALS!",
+            "heading_size": "h2"
+          }
+        },
+        "template--18278098731287__6999a54e-f20a-41cd-ba9c-ecda002c51b4-1679559093ad447cc7-1": {
+          "type": "paragraph",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--18278098731287__6999a54e-f20a-41cd-ba9c-ecda002c51b4-1679559093ad447cc7-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--18278098731287__6999a54e-f20a-41cd-ba9c-ecda002c51b4-1679559093ad447cc7-0",
+        "template--18278098731287__6999a54e-f20a-41cd-ba9c-ecda002c51b4-1679559093ad447cc7-1",
+        "template--18278098731287__6999a54e-f20a-41cd-ba9c-ecda002c51b4-1679559093ad447cc7-2"
+      ],
+      "custom_css": [
+        "h2 {text-align: center !important; font-size: 95%;}"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "main",
+    "4aff525e-4b3b-4900-bf21-36d687074bc1",
+    "9074737d-e273-49ae-b9e9-d185f1cb5e44",
+    "d49f3626-81da-4548-a477-28e0aa39c295",
+    "fa4c4769-1d3b-4502-a953-3ee7e9dc8d7b",
+    "99b01e7a-93b8-4ad4-8fb3-74b672774b72",
+    "6999a54e-f20a-41cd-ba9c-ecda002c51b4"
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "sections": {
+    "0a9a8da5-f279-4d63-ac74-5653de396697": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18278135628055__0a9a8da5-f279-4d63-ac74-5653de396697-16795586425fcd8401-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Service packages<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--18278135628055__0a9a8da5-f279-4d63-ac74-5653de396697-16795586425fcd8401-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Personalization is what makes your online store stand out among thousands of generic digital storefronts. With our customers in mind, we truly understand the power of personalization and turned it into a service. <\/p><p>Select one of the following website personalization services that could meet your current business needs and budget. <\/p>"
+          }
+        },
+        "template--18278135628055__0a9a8da5-f279-4d63-ac74-5653de396697-16795586425fcd8401-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18278135628055__0a9a8da5-f279-4d63-ac74-5653de396697-16795586425fcd8401-0",
+        "template--18278135628055__0a9a8da5-f279-4d63-ac74-5653de396697-16795586425fcd8401-1",
+        "template--18278135628055__0a9a8da5-f279-4d63-ac74-5653de396697-16795586425fcd8401-2"
+      ],
+      "custom_css": [
+        "p {color: white; font-size: 90%; line-height: 100%;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "e52f146d-1fcb-4a31-b7d7-227c7e5dcfb5": {
+      "type": "three-col",
+      "blocks": {
+        "3a9cda33-48f1-4753-99d5-4a3478c4cb57": {
+          "type": "block",
+          "settings": {
+            "title": "Basic",
+            "subtitle": "Development cost:",
+            "price": "$99",
+            "text": "<ul><li>✅ Customize any template from our portfolio<\/li><li>✅ Adapting banners to your product<\/li><li>✅ Setting up site navigation<\/li><li>✅ Connecting a contact form<\/li><li>✅ Integration of social networks<\/li><li>✅ Filling the site with customer content<\/li><li>✅ Optimization and customization of the mobile version<\/li><li>✅ Connecting the Reviews module<\/li><li>❌ Installing the Drop Shipping module<\/li><li>❌ Installing the FAQ module<\/li><li>❌ Connecting pop-ups<\/li><li>❌ Filling the store with 10 customer products<\/li><li>❌ Adding animation elements<\/li><li>❌ Installing the module Delivery<\/li><li>❌ Installation of the \"Thank you for paying\" subhead<\/li><li>📝 Ability to make edits: up to 3<\/li><\/ul>"
+          }
+        },
+        "b7448867-c7e2-4ac7-a792-0528f8fb4bb7": {
+          "type": "block",
+          "settings": {
+            "title": "Standard",
+            "subtitle": "Development cost:",
+            "price": "$149",
+            "text": "<ul><li>✅ Customize any template from our portfolio<\/li><li>✅ Adapting banners to your product<\/li><li>✅ Setting up site navigation<\/li><li>✅ Connecting a contact form<\/li><li>✅ Integration of social networks<\/li><li>✅ Filling the site with customer content<\/li><li>✅ Optimization and customization of the mobile version<\/li><li>✅ Connecting the Reviews module<\/li><li>✅ Installing the Drop Shipping module<\/li><li>✅ Installing the FAQ module<\/li><li>✅ Connecting pop-ups<\/li><li>❌ Filling the store with 10 customer products<\/li><li>❌ Adding animation elements<\/li><li>❌ Installing the module Delivery<\/li><li>❌ Installation of the \"Thank you for paying\" subhead<\/li><li>📝 Ability to make edits: up to 5<\/li><\/ul>"
+          }
+        },
+        "35399149-607d-4841-8018-5ead0be96026": {
+          "type": "block",
+          "settings": {
+            "title": "Pro",
+            "subtitle": "Development cost:",
+            "price": "$199",
+            "text": "<ul><li>✅ Customize any template from our portfolio<\/li><li>✅ Adapting banners to your product<\/li><li>✅ Setting up site navigation<\/li><li>✅ Connecting a contact form<\/li><li>✅ Integration of social networks<\/li><li>✅ Filling the site with customer content<\/li><li>✅ Optimization and customization of the mobile version<\/li><li>✅ Connecting the Reviews module<\/li><li>✅ Installing the Drop Shipping module<\/li><li>✅ Installing the FAQ module<\/li><li>✅ Connecting pop-ups<\/li><li>✅ Filling the store with 10 customer products<\/li><li>✅ Adding animation elements<\/li><li>✅ Installing the module Delivery<\/li><li>✅ Installation of the \"Thank you for paying\" subhead<\/li><li>📝 Ability to make edits: up to 5<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "3a9cda33-48f1-4753-99d5-4a3478c4cb57",
+        "b7448867-c7e2-4ac7-a792-0528f8fb4bb7",
+        "35399149-607d-4841-8018-5ead0be96026"
+      ],
+      "settings": {
+        "button_text": "Show more",
+        "btn_url": "shopify:\/\/collections\/all"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "0a9a8da5-f279-4d63-ac74-5653de396697",
+    "e52f146d-1fcb-4a31-b7d7-227c7e5dcfb5",
+    "main"
+  ]
+}
