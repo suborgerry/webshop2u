@@ -56,7 +56,6 @@
     },
     "9074737d-e273-49ae-b9e9-d185f1cb5e44": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "template--18278098731287__9074737d-e273-49ae-b9e9-d185f1cb5e44-167955898009af42e4-0": {
           "type": "heading",
@@ -92,6 +91,7 @@
         "template--18278098731287__9074737d-e273-49ae-b9e9-d185f1cb5e44-167955898009af42e4-1",
         "template--18278098731287__9074737d-e273-49ae-b9e9-d185f1cb5e44-167955898009af42e4-2"
       ],
+      "disabled": true,
       "settings": {
         "image_overlay_opacity": 0,
         "image_height": "medium",
