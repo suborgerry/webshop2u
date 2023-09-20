@@ -33,6 +33,9 @@
     endif
   -%}
   <div class="card-wrapper product-card-wrapper underline-links-hover">
+    {% if card_product.metafields.custom.bage_text != empty %}
+      <p class="product-card-wrapper__bage">{{ card_product.metafields.custom.bage_text }}</p>
+    {% endif %}
     <div
       class="
         card
