@@ -1,0 +1,34 @@
+.main-video-section__media {
+  position: relative;
+  padding-bottom: 56.25%;
+}
+
+.main-video-section__media.deferred-media {
+  box-shadow: var(--media-shadow-horizontal-offset)
+    var(--media-shadow-vertical-offset) var(--media-shadow-blur-radius)
+    rgba(var(--color-shadow), var(--media-shadow-opacity));
+}
+
+.main-video-section__media.deferred-media:after {
+  content: none;
+}
+
+.main-video-section__poster.deferred-media__poster:focus {
+  outline-offset: 0.3rem;
+}
+
+.main-video-section__media iframe {
+  background-color: rgba(var(--color-foreground), 0.03);
+  border: 0;
+}
+
+.main-video-section__poster,
+.main-video-section__media iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.main-video-section video {
+  width: 100%;
+}
