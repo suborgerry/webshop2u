@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "scripts": {
     "start": "yarn gulp & yarn dev",
-    "dev": "shopify theme dev -s `cat var.store.env` -e --live-reload hot-reload",
+    "dev": "shopify theme dev -s `cat var.store.env` --theme-editor-sync --live-reload hot-reload",
     "serve": "shopify theme serve --theme-editor-sync",
     "push": "shopify theme push -s `cat var.store.env`",
     "push:new": "shopify theme push -s `cat var.store.env` --unpublished",
