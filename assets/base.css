@@ -1,9 +1,9 @@
 /* Color custom properties */
 
 body {
-  background-image: url('https://cdn.shopify.com/s/files/1/0728/2406/2231/files/backgraund_line_gradient.svg?v=1681470493');
+  background-image: url('https://cdn.shopify.com/s/files/1/0728/2406/2231/files/backgraund.svg?v=1695308330');
   background-repeat: repeat;
-  background-size: cover;
+  background-size: 100% auto;
   background-position: top;
 }
 
