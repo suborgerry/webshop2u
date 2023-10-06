@@ -37,6 +37,12 @@
             "show_dynamic_checkout": true
           }
         },
+        "f5c4c497-df62-4ae9-b8f2-fa7de927d936": {
+          "type": "preview_link",
+          "settings": {
+            "link": "{{ product.metafields.custom.demo_link.value }}"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -56,6 +62,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "f5c4c497-df62-4ae9-b8f2-fa7de927d936",
         "description",
         "share"
       ],
