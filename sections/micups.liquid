@@ -1,0 +1,105 @@
+{{ 'mocups-section.css' | asset_url | stylesheet_tag }}
+
+<div class="swiper mocups-swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    {% for mocup in section.blocks %}
+      <div class="swiper-slide">
+        <a href="#" class="mocup-link">
+          <img class="mocup-image" src="{{ mocup.settings.image | image_url }}">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+  <!-- If we need pagination -->
+  {% comment %} <div class="swiper-pagination"></div> {% endcomment %}
+
+  <!-- If we need navigation buttons -->
+  {% comment %}
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  {% endcomment %}
+
+  <!-- If we need scrollbar -->
+  <div class="swiper-scrollbar"></div>
+</div>
+
+<script defer="defer">
+  {% if section.settings.slider_enable %}
+      (() => {
+      const swiper = new Swiper('.swiper', {
+          // Optional parameters
+          loop: true,
+          slidesPerView: 1,
+          speed: 6000,
+          createElements: true,
+          centeredSlides: true,
+          longSwipesMs: 0,
+          autoplay: {
+            enabled: true,
+            delay: false,
+            pauseOnMouseEnter: true,
+          },
+          breakpoints: {
+            480: {
+                slidesPerView: 2,
+            },
+            990: {
+                slidesPerView: 3,
+            }
+          },
+
+          // If we need pagination
+        //   pagination: {
+        //   el: '.swiper-pagination',
+        //   },
+
+          // Navigation arrows
+        //   navigation: {
+        //   nextEl: '.swiper-button-next',
+        //   prevEl: '.swiper-button-prev',
+        //   },
+
+          // And if we need scrollbar
+          scrollbar: {
+          el: '.swiper-scrollbar',
+          },
+      });
+      })();
+  {% endif %}
+</script>
+
+{% schema %}
+{
+  "name": "Mocups",
+  "tag": "section",
+  "class": "mocups",
+  "settings": [
+    {
+      "type": "checkbox",
+      "id": "slider_enable",
+      "label": "Slider enable",
+      "default": true
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Mocup",
+      "type": "mocup",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Mocups"
+    }
+  ]
+}
+{% endschema %}

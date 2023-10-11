@@ -1,0 +1,26 @@
+.mocups {
+  height: 75vh;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .mocups {
+    padding: 0 60px;
+  }
+}
+
+.mocups-swiper {
+  height: 100%;
+}
+
+.mocup-link {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.mocup-image {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}

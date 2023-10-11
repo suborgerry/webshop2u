@@ -13,6 +13,65 @@
         "padding_bottom": 36
       }
     },
+    "759e7619-b55f-4c32-b43a-8f2c544ba041": {
+      "type": "micups",
+      "blocks": {
+        "fdeef6a3-72f5-4062-a96a-6a9a268bcfba": {
+          "type": "mocup",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/820_1135.png"
+          }
+        },
+        "269611c2-96ce-43e5-b795-d57cc2bf6c4f": {
+          "type": "mocup",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/820_1135.png"
+          }
+        },
+        "f304d200-2637-4f79-93e0-8eefd2f779ae": {
+          "type": "mocup",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/820_1135.png"
+          }
+        },
+        "1f0b63e6-ce86-4b68-b492-9d32f911160d": {
+          "type": "mocup",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/820_1135.png"
+          }
+        },
+        "c790d2d6-c07c-417a-b513-a6615cd96420": {
+          "type": "mocup",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/820_1135.png"
+          }
+        },
+        "1ea89ae5-4621-48c5-b961-09c226c7e479": {
+          "type": "mocup",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/820_1135.png"
+          }
+        },
+        "648b0a8f-adec-4771-84a8-4e6a6419427e": {
+          "type": "mocup",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/820_1135.png"
+          }
+        }
+      },
+      "block_order": [
+        "fdeef6a3-72f5-4062-a96a-6a9a268bcfba",
+        "269611c2-96ce-43e5-b795-d57cc2bf6c4f",
+        "f304d200-2637-4f79-93e0-8eefd2f779ae",
+        "1f0b63e6-ce86-4b68-b492-9d32f911160d",
+        "c790d2d6-c07c-417a-b513-a6615cd96420",
+        "1ea89ae5-4621-48c5-b961-09c226c7e479",
+        "648b0a8f-adec-4771-84a8-4e6a6419427e"
+      ],
+      "settings": {
+        "slider_enable": true
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -265,6 +324,7 @@
   },
   "order": [
     "e4bbd6d1-fe04-4827-98ff-282769292962",
+    "759e7619-b55f-4c32-b43a-8f2c544ba041",
     "image-with-text",
     "featured-collection",
     "05cf04f9-cc36-48dc-9b31-0d13df91a76a",
