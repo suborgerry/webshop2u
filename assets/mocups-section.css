@@ -1,16 +1,17 @@
 .mocups {
-  height: 75vh;
-  padding: 0 20px;
-}
-
-@media screen and (min-width: 768px) {
-  .mocups {
-    padding: 0 60px;
-  }
+  height: 85vh;
+  /* padding: 0 20px; */
 }
 
 .mocups-swiper {
   height: 100%;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .mocups-swiper {
+    padding: 0 60px;
+  }
 }
 
 .mocup-link {
