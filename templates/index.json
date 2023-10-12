@@ -13,6 +13,77 @@
         "padding_bottom": 36
       }
     },
+    "65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--18276053319959__65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3-16792484270692b953-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/untitled_1.png",
+            "icon_svg": "<svg width=\"53\" height=\"52\" viewbox=\"0 0 53 52\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M27.8188 36.667C30.4108 34.5415 36.4487 30.4297 41.5311 23.3008C44.5519 19.0649 48.6111 9.35151 51.0037 1C42.6521 3.39636 32.4911 7.90317 28.2552 10.924C21.1263 16.0064 17.4622 21.5966 15.3367 24.1886C13.3617 26.5963 12.2067 28.8008 11.3716 30.2943L16.5405 35.4632L21.7094 40.6321C23.2029 39.7932 25.4112 38.6382 27.8188 36.667Z\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M13.5085 26.5436L1 26.8408L12.2595 15.5813L22.5447 15.3368\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M25.4525 38.6986L25.1628 51.0001L36.4223 39.7406L36.6631 29.4592\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M28.8798 23.124L12.8652 39.1386\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.79156 42.212L4.47217 47.5314\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.61858 34.7784L3.32861 41.0684\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M17.2215 42.3853L10.9353 48.6715\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M36.3811 18.9106C38.199 18.9106 39.6728 17.4368 39.6728 15.6188C39.6728 13.8009 38.199 12.3271 36.3811 12.3271C34.5631 12.3271 33.0894 13.8009 33.0894 15.6188C33.0894 17.4368 34.5631 18.9106 36.3811 18.9106Z\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
+            "title": "",
+            "text": "<p>Effortless online store launch<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18276053319959__65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3-16792484270692b953-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/untitled_2.png",
+            "icon_svg": "<svg width=\"58\" height=\"52\" viewbox=\"0 0 58 52\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M16.3965 30.0514V40.7759\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M10.2764 19.244V35.7389\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M22.6221 20.1243V46.5048\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M28.731 20.7412V34.6895\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M28.731 41.152V49.5856\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M34.9189 27.0457V45.3123\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M47.3213 26.7599V34.8324\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M10.2688 19.2441C10.2688 14.6624 12.4242 10.5848 15.7759 7.96667\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M37.3753 11.8373C35.1484 9.85117 32.2105 8.64368 28.9943 8.64368C22.039 8.64368 16.3965 14.2824 16.3965 21.2415L16.3777 24.9317\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M20.1431 4.08835C22.5505 3.00875 25.2175 2.41064 28.0237 2.41064C38.6805 2.41064 47.3211 11.0512 47.3211 21.708\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M22.6145 20.1242C22.6145 16.7274 25.368 13.9701 28.7686 13.9701C32.1691 13.9701 34.9227 16.7236 34.9227 20.1242\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M39.7751 15.4524C39.7751 15.4524 41.088 17.4762 41.088 23.1337V40.7797\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M1 8.79416V1H8.79416\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<path d=\"M56.5448 8.79416V1H48.7544\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<path d=\"M1 43.2058V51H8.79416\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<path d=\"M56.5448 43.2058V51H48.7544\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<\/svg>",
+            "title": "",
+            "text": "<p>Unique Shopify template designsspecifically oriented on the promotionof kids' stores, clothing shops,and homeware storefronts<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--18276053319959__65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3-16792484270692b953-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/untitled_3.png",
+            "icon_svg": "<svg width=\"62\" height=\"52\" viewbox=\"0 0 62 52\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M56.3168 11.7934V35.4442H1V9.00367V1.09253H8.76219H42.5981\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<path d=\"M1 43.2202V50.9999H8.76219H48.5584H56.3168V43.2202H1Z\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M39.6085 18.2028C39.8221 18.4581 39.8745 18.8148 39.7284 19.1152C36.6265 25.577 28.3249 33.766 17.753 29.7785C17.5957 29.7184 17.4983 29.5682 17.5058 29.3993C17.517 29.2303 17.6331 29.0914 17.798 29.0501C20.3604 28.4193 23.275 25.2954 24.2827 23.3354C26.9463 18.154 29.8983 15.2816 35.5139 14.005C35.8248 13.9337 36.1508 14.0501 36.3568 14.2941L37.7466 15.9612L39.4624 18.0263L39.6085 18.2028Z\" fill=\"white\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M56.9461 2.06884C53.7131 1.10388 50.0081 0 50.0081 0C50.0081 0 40.1743 10.6633 38.3723 12.6158C39.1066 13.4981 41.1932 16.0063 41.4779 16.3517C44.2202 14.602 61.6664 3.4806 61.6664 3.4806C61.6664 3.4806 59.4486 2.81602 56.9461 2.06884Z\" fill=\"white\"><\/path>\n<path d=\"M27.3209 6.79968H6.69043V11.1626H27.3209V6.79968Z\" fill=\"white\"><\/path>\n<path d=\"M15.0183 14.1853H6.69043V22.532H15.0183V14.1853Z\" fill=\"white\"><\/path>\n<\/svg>",
+            "title": "",
+            "text": "<p>Website personalizationas per customers’ requests<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "d4e388e7-d0ab-42ee-9cc0-d1b385d2dbe0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/untitled_4.png",
+            "icon_svg": "<svg width=\"44\" height=\"53\" viewbox=\"0 0 44 53\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M21.7064 52C33.1422 52 42.4128 42.7295 42.4128 31.2937C42.4128 19.8578 33.1422 10.5873 21.7064 10.5873C10.2706 10.5873 1 19.8578 1 31.2937C1 42.7295 10.2706 52 21.7064 52Z\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M21.7064 31.2935V15.2034C30.5316 15.2034 37.7965 22.4683 37.7965 31.2935C37.7965 40.1188 30.5316 47.3837 21.7064 47.3837C12.8811 47.3837 5.61621 40.1188 5.61621 31.2935H21.7064Z\" fill=\"white\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M27.4529 7.21546H15.9637C15.6669 7.21546 15.4233 6.9757 15.4233 6.67506V0.540397C15.4233 0.243559 15.6631 0 15.9637 0H27.4529C27.7497 0 27.9933 0.239753 27.9933 0.540397V6.67506C27.9895 6.9757 27.7497 7.21546 27.4529 7.21546Z\" fill=\"white\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M35.1099 15.4128L30.6763 12.8516C30.4175 12.7032 30.33 12.3721 30.4784 12.1133L33.0396 7.67974C33.188 7.42095 33.5191 7.33342 33.7779 7.48184L38.2114 10.043C38.4702 10.1914 38.5578 10.5225 38.4093 10.7813L35.8482 15.2149C35.6959 15.4736 35.3686 15.5612 35.1099 15.4128Z\" fill=\"white\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.63867 7.48575L5.20513 10.0469C4.94635 10.1954 4.85881 10.5264 5.00723 10.7852L7.56842 15.2188C7.71684 15.4776 8.04792 15.5651 8.30671 15.4167L12.7403 12.8555C12.999 12.7071 13.0866 12.376 12.9381 12.1172L10.377 7.68364C10.2285 7.42486 9.89746 7.33733 9.63867 7.48575Z\" fill=\"white\"><\/path>\n<path d=\"M21.7063 3.83984V10.591\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<\/svg>",
+            "title": "",
+            "text": "<p>Duly project commissioning<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18276053319959__65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3-16792484270692b953-0",
+        "template--18276053319959__65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3-16792484270692b953-1",
+        "template--18276053319959__65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3-16792484270692b953-2",
+        "d4e388e7-d0ab-42ee-9cc0-d1b385d2dbe0"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "759e7619-b55f-4c32-b43a-8f2c544ba041": {
       "type": "micups",
       "blocks": {
@@ -70,6 +141,28 @@
       ],
       "settings": {
         "slider_enable": true
+      }
+    },
+    "05cf04f9-cc36-48dc-9b31-0d13df91a76a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--18276053319959__05cf04f9-cc36-48dc-9b31-0d13df91a76a-16792441938b271bb3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each template is fully customizable, allowing you to add your own branding, images, and content to create a website that perfectly reflects your unique style and message.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18276053319959__05cf04f9-cc36-48dc-9b31-0d13df91a76a-16792441938b271bb3-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "image-with-text": {
@@ -145,99 +238,6 @@
         "padding_bottom": 68
       }
     },
-    "05cf04f9-cc36-48dc-9b31-0d13df91a76a": {
-      "type": "rich-text",
-      "blocks": {
-        "template--18276053319959__05cf04f9-cc36-48dc-9b31-0d13df91a76a-16792441938b271bb3-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Each template is fully customizable, allowing you to add your own branding, images, and content to create a website that perfectly reflects your unique style and message.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--18276053319959__05cf04f9-cc36-48dc-9b31-0d13df91a76a-16792441938b271bb3-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--18276053319959__65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3-16792484270692b953-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/untitled_1.png",
-            "icon_svg": "<svg width=\"53\" height=\"52\" viewbox=\"0 0 53 52\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M27.8188 36.667C30.4108 34.5415 36.4487 30.4297 41.5311 23.3008C44.5519 19.0649 48.6111 9.35151 51.0037 1C42.6521 3.39636 32.4911 7.90317 28.2552 10.924C21.1263 16.0064 17.4622 21.5966 15.3367 24.1886C13.3617 26.5963 12.2067 28.8008 11.3716 30.2943L16.5405 35.4632L21.7094 40.6321C23.2029 39.7932 25.4112 38.6382 27.8188 36.667Z\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M13.5085 26.5436L1 26.8408L12.2595 15.5813L22.5447 15.3368\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M25.4525 38.6986L25.1628 51.0001L36.4223 39.7406L36.6631 29.4592\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M28.8798 23.124L12.8652 39.1386\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.79156 42.212L4.47217 47.5314\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M9.61858 34.7784L3.32861 41.0684\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M17.2215 42.3853L10.9353 48.6715\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<path d=\"M36.3811 18.9106C38.199 18.9106 39.6728 17.4368 39.6728 15.6188C39.6728 13.8009 38.199 12.3271 36.3811 12.3271C34.5631 12.3271 33.0894 13.8009 33.0894 15.6188C33.0894 17.4368 34.5631 18.9106 36.3811 18.9106Z\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><\/path>\n<\/svg>",
-            "title": "",
-            "text": "<p>Effortless online store launch<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--18276053319959__65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3-16792484270692b953-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/untitled_2.png",
-            "icon_svg": "<svg width=\"58\" height=\"52\" viewbox=\"0 0 58 52\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M16.3965 30.0514V40.7759\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M10.2764 19.244V35.7389\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M22.6221 20.1243V46.5048\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M28.731 20.7412V34.6895\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M28.731 41.152V49.5856\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M34.9189 27.0457V45.3123\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M47.3213 26.7599V34.8324\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M10.2688 19.2441C10.2688 14.6624 12.4242 10.5848 15.7759 7.96667\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M37.3753 11.8373C35.1484 9.85117 32.2105 8.64368 28.9943 8.64368C22.039 8.64368 16.3965 14.2824 16.3965 21.2415L16.3777 24.9317\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M20.1431 4.08835C22.5505 3.00875 25.2175 2.41064 28.0237 2.41064C38.6805 2.41064 47.3211 11.0512 47.3211 21.708\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M22.6145 20.1242C22.6145 16.7274 25.368 13.9701 28.7686 13.9701C32.1691 13.9701 34.9227 16.7236 34.9227 20.1242\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M39.7751 15.4524C39.7751 15.4524 41.088 17.4762 41.088 23.1337V40.7797\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\" stroke-linecap=\"round\"><\/path>\n<path d=\"M1 8.79416V1H8.79416\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<path d=\"M56.5448 8.79416V1H48.7544\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<path d=\"M1 43.2058V51H8.79416\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<path d=\"M56.5448 43.2058V51H48.7544\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<\/svg>",
-            "title": "",
-            "text": "<p>Unique Shopify template designsspecifically oriented on the promotionof kids' stores, clothing shops,and homeware storefronts<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--18276053319959__65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3-16792484270692b953-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/untitled_3.png",
-            "icon_svg": "<svg width=\"62\" height=\"52\" viewbox=\"0 0 62 52\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M56.3168 11.7934V35.4442H1V9.00367V1.09253H8.76219H42.5981\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<path d=\"M1 43.2202V50.9999H8.76219H48.5584H56.3168V43.2202H1Z\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M39.6085 18.2028C39.8221 18.4581 39.8745 18.8148 39.7284 19.1152C36.6265 25.577 28.3249 33.766 17.753 29.7785C17.5957 29.7184 17.4983 29.5682 17.5058 29.3993C17.517 29.2303 17.6331 29.0914 17.798 29.0501C20.3604 28.4193 23.275 25.2954 24.2827 23.3354C26.9463 18.154 29.8983 15.2816 35.5139 14.005C35.8248 13.9337 36.1508 14.0501 36.3568 14.2941L37.7466 15.9612L39.4624 18.0263L39.6085 18.2028Z\" fill=\"white\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M56.9461 2.06884C53.7131 1.10388 50.0081 0 50.0081 0C50.0081 0 40.1743 10.6633 38.3723 12.6158C39.1066 13.4981 41.1932 16.0063 41.4779 16.3517C44.2202 14.602 61.6664 3.4806 61.6664 3.4806C61.6664 3.4806 59.4486 2.81602 56.9461 2.06884Z\" fill=\"white\"><\/path>\n<path d=\"M27.3209 6.79968H6.69043V11.1626H27.3209V6.79968Z\" fill=\"white\"><\/path>\n<path d=\"M15.0183 14.1853H6.69043V22.532H15.0183V14.1853Z\" fill=\"white\"><\/path>\n<\/svg>",
-            "title": "",
-            "text": "<p>Website personalizationas per customers’ requests<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "d4e388e7-d0ab-42ee-9cc0-d1b385d2dbe0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/untitled_4.png",
-            "icon_svg": "<svg width=\"44\" height=\"53\" viewbox=\"0 0 44 53\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M21.7064 52C33.1422 52 42.4128 42.7295 42.4128 31.2937C42.4128 19.8578 33.1422 10.5873 21.7064 10.5873C10.2706 10.5873 1 19.8578 1 31.2937C1 42.7295 10.2706 52 21.7064 52Z\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M21.7064 31.2935V15.2034C30.5316 15.2034 37.7965 22.4683 37.7965 31.2935C37.7965 40.1188 30.5316 47.3837 21.7064 47.3837C12.8811 47.3837 5.61621 40.1188 5.61621 31.2935H21.7064Z\" fill=\"white\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M27.4529 7.21546H15.9637C15.6669 7.21546 15.4233 6.9757 15.4233 6.67506V0.540397C15.4233 0.243559 15.6631 0 15.9637 0H27.4529C27.7497 0 27.9933 0.239753 27.9933 0.540397V6.67506C27.9895 6.9757 27.7497 7.21546 27.4529 7.21546Z\" fill=\"white\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M35.1099 15.4128L30.6763 12.8516C30.4175 12.7032 30.33 12.3721 30.4784 12.1133L33.0396 7.67974C33.188 7.42095 33.5191 7.33342 33.7779 7.48184L38.2114 10.043C38.4702 10.1914 38.5578 10.5225 38.4093 10.7813L35.8482 15.2149C35.6959 15.4736 35.3686 15.5612 35.1099 15.4128Z\" fill=\"white\"><\/path>\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M9.63867 7.48575L5.20513 10.0469C4.94635 10.1954 4.85881 10.5264 5.00723 10.7852L7.56842 15.2188C7.71684 15.4776 8.04792 15.5651 8.30671 15.4167L12.7403 12.8555C12.999 12.7071 13.0866 12.376 12.9381 12.1172L10.377 7.68364C10.2285 7.42486 9.89746 7.33733 9.63867 7.48575Z\" fill=\"white\"><\/path>\n<path d=\"M21.7063 3.83984V10.591\" stroke=\"white\" stroke-width=\"2\" stroke-miterlimit=\"10\"><\/path>\n<\/svg>",
-            "title": "",
-            "text": "<p>Duly project commissioning<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18276053319959__65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3-16792484270692b953-0",
-        "template--18276053319959__65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3-16792484270692b953-1",
-        "template--18276053319959__65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3-16792484270692b953-2",
-        "d4e388e7-d0ab-42ee-9cc0-d1b385d2dbe0"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "9b252d70-ef0c-4262-95bc-d566e728e195": {
       "type": "collection-list",
       "blocks": {
@@ -274,6 +274,7 @@
         "template--18276053319959__9b252d70-ef0c-4262-95bc-d566e728e195-1679247527a15f57e2-1",
         "template--18276053319959__9b252d70-ef0c-4262-95bc-d566e728e195-1679247527a15f57e2-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -324,11 +325,11 @@
   },
   "order": [
     "e4bbd6d1-fe04-4827-98ff-282769292962",
+    "65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3",
     "759e7619-b55f-4c32-b43a-8f2c544ba041",
+    "05cf04f9-cc36-48dc-9b31-0d13df91a76a",
     "image-with-text",
     "featured-collection",
-    "05cf04f9-cc36-48dc-9b31-0d13df91a76a",
-    "65cdb3b3-830f-4f2d-bd18-1fa8cb62d1b3",
     "9b252d70-ef0c-4262-95bc-d566e728e195",
     "249cfd1b-9941-4abd-a9bf-d654b5567fbc"
   ]
