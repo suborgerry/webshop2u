@@ -402,6 +402,99 @@
         "heading": "Why chose Handmade Hub Agency?",
         "sub_heading": "Learn more about Handmade Hub"
       }
+    },
+    "af552303-82a6-42bb-8968-483aaa07a194": {
+      "type": "reviews",
+      "blocks": {
+        "f5dc2232-0cc1-4aad-a11e-3801da6e2691": {
+          "type": "review",
+          "settings": {
+            "rating": 4,
+            "user_name": "<strong>Jimmon<\/strong>",
+            "review": "<p>\"Utilizing pre-made website templates has truly transformed our business. You don't need to be a coder, and the outcomes are absolutely impressive!\"<\/p>",
+            "product_name": ""
+          }
+        },
+        "dd1ecdfc-16f4-46f8-a1c2-365ad77a0901": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "user_name": "<strong>Madsmad7<\/strong>",
+            "review": "<p>\"I am not a developer, but these templates made me feel like one. Our website looks professional, and it was a breeze to create.\"<\/p>",
+            "product_name": ""
+          }
+        },
+        "df38d857-3377-4853-a8b4-18406360fdc4": {
+          "type": "review",
+          "settings": {
+            "rating": 4,
+            "user_name": "<strong>David Wilson<\/strong>",
+            "review": "<p>\"The simplicity of these templates saved us so much time and money. We launched our website in days, not months.\"<\/p>",
+            "product_name": ""
+          }
+        },
+        "8ae3b971-b47a-4f19-bb4b-8b5934e5f6e1": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "user_name": "<strong>OnlyFranck<\/strong>",
+            "review": "<p>\"I can't believe how easy it was to design our website. These templates are intuitive and user-friendly.\"<\/p>",
+            "product_name": ""
+          }
+        },
+        "1817aa6a-6891-407d-832b-c16172949b3d": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "user_name": "<strong>Oliver<\/strong>",
+            "review": "<p>\"Ready-to-use templates allowed me to bring my creative vision to life without any coding headaches. Our website now stands out in our industry.\"<\/p>",
+            "product_name": ""
+          }
+        },
+        "744daaf5-fd36-4b41-b12a-f42d6ff30709": {
+          "type": "review",
+          "settings": {
+            "rating": 4,
+            "user_name": "<strong>Anna<\/strong>",
+            "review": "<p>\"Our website looks amazing, and we owe it all to these templates. I recommend them to anyone looking to build a site quickly and beautifully.\"<\/p>",
+            "product_name": ""
+          }
+        },
+        "f02cf5b6-c2d7-484d-af6d-fef86a4208ee": {
+          "type": "review",
+          "settings": {
+            "rating": 5,
+            "user_name": "<strong>EmmaWhoO<\/strong>",
+            "review": "<p>\"I was skeptical at first, but these templates proved me wrong. Building our website was effortless, and it looks fantastic.\"<\/p>",
+            "product_name": ""
+          }
+        },
+        "997adc0f-a179-45f9-9110-8ef296d2cd1d": {
+          "type": "review",
+          "settings": {
+            "rating": 4,
+            "user_name": "<strong>Charlotte Osborne<\/strong>",
+            "review": "<p>\"The templates provided everything I needed to create a professional website. It's a total game-changer for small businesses like ours.\"<\/p>",
+            "product_name": ""
+          }
+        }
+      },
+      "block_order": [
+        "f5dc2232-0cc1-4aad-a11e-3801da6e2691",
+        "dd1ecdfc-16f4-46f8-a1c2-365ad77a0901",
+        "df38d857-3377-4853-a8b4-18406360fdc4",
+        "8ae3b971-b47a-4f19-bb4b-8b5934e5f6e1",
+        "1817aa6a-6891-407d-832b-c16172949b3d",
+        "744daaf5-fd36-4b41-b12a-f42d6ff30709",
+        "f02cf5b6-c2d7-484d-af6d-fef86a4208ee",
+        "997adc0f-a179-45f9-9110-8ef296d2cd1d"
+      ],
+      "settings": {
+        "sub_heading": "CUSTOMER REVIEWS",
+        "heading": "Don't take our words only",
+        "bg_color": "#ffffff",
+        "text_color": "#000"
+      }
     }
   },
   "order": [
@@ -413,6 +506,7 @@
     "featured-collection",
     "9b252d70-ef0c-4262-95bc-d566e728e195",
     "249cfd1b-9941-4abd-a9bf-d654b5567fbc",
-    "cca5e155-1275-45d6-aa30-05d2f74dba73"
+    "cca5e155-1275-45d6-aa30-05d2f74dba73",
+    "af552303-82a6-42bb-8968-483aaa07a194"
   ]
 }

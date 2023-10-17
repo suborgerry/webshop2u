@@ -1,0 +1,197 @@
+{{ 'reviews-section.css' | asset_url | stylesheet_tag }}
+
+<style>
+   #shopify-section-{{ section.id }} {
+   	--bg-color: {{ section.settings.bg_color }}38;
+   	--text-color: {{ section.settings.text_color }};
+   }
+
+  .swiper-{{ section.id }} {
+  	height: 200px
+  }
+</style>
+
+<p class="reviews-section__subheading">{{ section.settings.sub_heading }}</p>
+<h3 class="reviews-section__heading">{{ section.settings.heading }}</h3>
+<div class="reviews-section__container reviews-section__swiper swiper-{{ section.id }}">
+  <div class="swiper-wrapper">
+    {% for review in section.blocks %}
+      <div class="reviews-section__item swiper swiper-slide">
+        <div class="reviews-section__item-wrapper">
+          <div>
+            <div class="reviews-section__item-rating">
+              {% for iteration in (1..5) %}
+                {% if iteration <= review.settings.rating %}
+                  <svg width="16" height="15" viewBox="0 0 16 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6.97631 0.816985C7.34313 0.0737391 8.40297 0.07374 8.76978 0.816986L10.2854 3.88798C10.4311 4.18313 10.7126 4.38769 11.0383 4.43502L14.4274 4.92748C15.2476 5.04667 15.5751 6.05464 14.9816 6.63317L12.5293 9.02361C12.2936 9.25335 12.186 9.58435 12.2417 9.90874L12.8206 13.2841C12.9607 14.101 12.1033 14.724 11.3696 14.3383L8.33839 12.7446C8.04706 12.5915 7.69903 12.5915 7.40771 12.7446L4.37645 14.3383C3.64282 14.724 2.78539 14.101 2.9255 13.2841L3.50442 9.90874C3.56006 9.58435 3.45251 9.25335 3.21682 9.02361L0.764487 6.63317C0.17097 6.05464 0.498481 5.04667 1.3187 4.92748L4.70775 4.43502C5.03346 4.38769 5.31502 4.18313 5.46068 3.88798L6.97631 0.816985Z" fill="#5E0906"/>
+                  </svg>
+                {% else %}
+                  <svg
+                    class="empty"
+                    width="16"
+                    height="15"
+                    viewBox="0 0 16 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path d="M7.51435 1.08252C7.66108 0.785227 8.08502 0.785226 8.23174 1.08253L9.74737 4.15352C9.98043 4.62575 10.4309 4.95306 10.9521 5.02879L14.3411 5.52124C14.6692 5.56892 14.8002 5.97211 14.5628 6.20352L12.1105 8.59396C11.7334 8.96154 11.5613 9.49114 11.6503 10.0102L12.2292 13.3855C12.2853 13.7123 11.9423 13.9615 11.6488 13.8072L8.61759 12.2136C8.15147 11.9685 7.59462 11.9685 7.1285 12.2136L4.09725 13.8072C3.8038 13.9615 3.46082 13.7123 3.51687 13.3855L4.09579 10.0102C4.18481 9.49114 4.01273 8.96154 3.63563 8.59396L1.18329 6.20352C0.945889 5.97211 1.07689 5.56892 1.40498 5.52124L4.79402 5.02879C5.31516 4.95306 5.76567 4.62575 5.99873 4.15352L7.51435 1.08252Z" stroke="#5E0906" stroke-width="1.2"/>
+                  </svg>
+                {% endif %}
+              {% endfor %}
+            </div>
+            {% if review.settings.user_name %}
+              <div class="reviews-section__item-user">by {{ review.settings.user_name }}</div>
+            {% endif %}
+          </div>
+          <div>
+            {% if review.settings.review %}
+              <div class="reviews-section__item-review">
+                {{ review.settings.review }}
+              </div>
+            {% endif %}
+            {% if review.settings.product_name %}
+              <div class="reviews-section__item-product">
+                {{ review.settings.product_name }}
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<script defer="defer">
+  (() => {
+    // const swiper = new Swiper('.swiper-{{ section.id }}', {
+    //   loop: true,
+    //   slidesPerView: 1,
+    //   speed: 6000,
+    //   createElements: true,
+    //   centeredSlides: true,
+    //   spaceBetween: 30,
+    //   longSwipesMs: 0,
+    //   autoplay: {
+    //     delay: 500,
+    //   },
+    //   pauseOnMouseEnter: true,
+    //   breakpoints: {
+    //     480: {
+    //       slidesPerView: 2,
+    //     },
+    //     990: {
+    //       slidesPerView: 3,
+    //     },
+    //   },
+    // });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      var swiper = new Swiper('.swiper-{{ section.id }}', {
+        loop: true,
+        //   slidesPerView: 1,
+        speed: 3000,
+        //   createElements: true,
+        //   centeredSlides: true,
+        spaceBetween: 30,
+        //   longSwipesMs: 0,
+        autoplay: {
+          delay: 2000,
+        },
+        breakpoints: {
+          480: {
+            slidesPerView: 2,
+          },
+          990: {
+            slidesPerView: 3,
+            speed: 6000,
+          },
+        },
+        // allowTouchMove: false,
+      });
+
+      // var swiperContainer = document.querySelector('.swiper-{{ section.id }}');
+
+      // swiperContainer.addEventListener('mouseenter', function () {
+      //   swiper.autoplay.stop();
+      // });
+
+      // swiperContainer.addEventListener('mouseleave', function () {
+      //   swiper.autoplay.start();
+      // });
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Reviews",
+  "class": "reviews-section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "sub_heading",
+      "label": "Sub heading",
+      "default": "CUSTOMER REVIEWS"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Don't take our words only"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "#000"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "review",
+      "name": "Review",
+      "settings": [
+        {
+          "type": "range",
+          "id": "rating",
+          "label": "Rating",
+          "min": 1,
+          "max": 5,
+          "step": 1,
+          "default": 5
+        },
+        {
+          "type": "inline_richtext",
+          "default": "User name",
+          "id": "user_name",
+          "label": "User name"
+        },
+        {
+          "type": "richtext",
+          "id": "review",
+          "label": "Review",
+          "default": "<p>There is a lot of good stuff included, although it takes time learn the features it is worth the time and money. They also have a good customer support especially with the help from Mie.</p>"
+        },
+        {
+          "type": "richtext",
+          "label": "Product name",
+          "id": "product_name",
+          "default": "<p>Lipstik Shopify Theme 2.0</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Reviews"
+    }
+  ]
+}
+{% endschema %}
