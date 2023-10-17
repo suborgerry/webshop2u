@@ -109,15 +109,15 @@
         // allowTouchMove: false,
       });
 
-      // var swiperContainer = document.querySelector('.swiper-{{ section.id }}');
+      var swiperContainer = document.querySelector('.swiper-{{ section.id }}');
 
-      // swiperContainer.addEventListener('mouseenter', function () {
-      //   swiper.autoplay.stop();
-      // });
+      swiperContainer.addEventListener('mouseenter', function () {
+        swiper.autoplay.stop();
+      });
 
-      // swiperContainer.addEventListener('mouseleave', function () {
-      //   swiper.autoplay.start();
-      // });
+      swiperContainer.addEventListener('mouseleave', function () {
+        swiper.autoplay.start();
+      });
     });
   })();
 </script>
