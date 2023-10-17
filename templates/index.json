@@ -342,6 +342,66 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "cca5e155-1275-45d6-aa30-05d2f74dba73": {
+      "type": "info-section",
+      "blocks": {
+        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-1": {
+          "type": "info_item",
+          "settings": {
+            "info_type": "number",
+            "text_value": "Text value",
+            "number_value": 100,
+            "add_symbol": "+",
+            "color": "#000000",
+            "sub_info": "Shopify Projects Delovered"
+          }
+        },
+        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-2": {
+          "type": "info_item",
+          "settings": {
+            "info_type": "number",
+            "text_value": "Shopify",
+            "number_value": 17,
+            "add_symbol": "+",
+            "color": "#000000",
+            "sub_info": "Countries Served"
+          }
+        },
+        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-3": {
+          "type": "info_item",
+          "settings": {
+            "info_type": "text",
+            "text_value": "1000000",
+            "number_value": 17,
+            "add_symbol": "$",
+            "color": "#000000",
+            "sub_info": "Our clients have earned more than"
+          }
+        },
+        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-4": {
+          "type": "info_item",
+          "settings": {
+            "info_type": "text",
+            "text_value": "0",
+            "number_value": 1,
+            "add_symbol": "$",
+            "color": "#000000",
+            "sub_info": "Free license for commercial use"
+          }
+        }
+      },
+      "block_order": [
+        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-1",
+        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-2",
+        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-3",
+        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-4"
+      ],
+      "settings": {
+        "pre_heading": "A Shopify agency you can rely on.",
+        "heading": "Why chose Handmade Hub Agency?",
+        "sub_heading": "Learn more about Handmade Hub"
+      }
     }
   },
   "order": [
@@ -352,6 +412,7 @@
     "image-with-text",
     "featured-collection",
     "9b252d70-ef0c-4262-95bc-d566e728e195",
-    "249cfd1b-9941-4abd-a9bf-d654b5567fbc"
+    "249cfd1b-9941-4abd-a9bf-d654b5567fbc",
+    "cca5e155-1275-45d6-aa30-05d2f74dba73"
   ]
 }

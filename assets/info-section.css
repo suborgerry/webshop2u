@@ -1,0 +1,17 @@
+.info-section {
+  text-align: center;
+  padding: 36px;
+}
+
+.info-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+.info-item__number,
+.info-item__text {
+  font-size: 25px;
+  font-weight: 900;
+}
