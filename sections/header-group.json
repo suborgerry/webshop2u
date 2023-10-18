@@ -2,22 +2,102 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "e0935c5d-930e-4c81-8215-b9f059df01f2": {
+      "type": "announcement-bar-slider",
+      "blocks": {
+        "904221c6-9262-414b-8d85-79c71964d968": {
+          "type": "announcement",
+          "settings": {
+            "text": "100+ Shopify Projects Delivered"
+          }
+        },
+        "0a5e07a5-1aa7-4f5f-b6c2-dd5d31b6c4c7": {
+          "type": "announcement",
+          "settings": {
+            "text": "17+ Countries Served"
+          }
+        },
+        "a26ca39b-cd7c-444a-9edd-6dbbcd9e0c73": {
+          "type": "announcement",
+          "settings": {
+            "text": "$1,000,000 Our clients have earned more than"
+          }
+        },
+        "cf0e1ab4-c4f1-4aa9-b9b2-7fabca5f0189": {
+          "type": "announcement",
+          "settings": {
+            "text": "Free license for commercial use"
+          }
+        }
+      },
+      "block_order": [
+        "904221c6-9262-414b-8d85-79c71964d968",
+        "0a5e07a5-1aa7-4f5f-b6c2-dd5d31b6c4c7",
+        "a26ca39b-cd7c-444a-9edd-6dbbcd9e0c73",
+        "cf0e1ab4-c4f1-4aa9-b9b2-7fabca5f0189"
+      ],
+      "settings": {
+      }
+    },
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Get 15% off your personalized website order with promo code FastStart",
+            "text": "Get 15% off your personalized",
             "text_alignment": "center",
             "color_scheme": "background-2",
+            "link": ""
+          }
+        },
+        "0f4e445f-9eb2-4f81-b299-6103cba563bd": {
+          "type": "announcement",
+          "settings": {
+            "text": "100+ Shopify Projects Delivered",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        },
+        "161779cf-fefa-4645-8544-b5a3273bed83": {
+          "type": "announcement",
+          "settings": {
+            "text": "17+ Countries Served",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        },
+        "123259a8-0181-4a0b-acbf-269574222655": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "$1,000,000 Our clients have earned more than",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
+            "link": ""
+          }
+        },
+        "d4679ec7-7870-4d35-bc0e-4c9a434969e1": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "Free license for commercial use",
+            "text_alignment": "center",
+            "color_scheme": "accent-1",
             "link": ""
           }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "0f4e445f-9eb2-4f81-b299-6103cba563bd",
+        "161779cf-fefa-4645-8544-b5a3273bed83",
+        "123259a8-0181-4a0b-acbf-269574222655",
+        "d4679ec7-7870-4d35-bc0e-4c9a434969e1"
       ],
+      "disabled": true,
       "settings": {
       }
     },
@@ -39,6 +119,7 @@
     }
   },
   "order": [
+    "e0935c5d-930e-4c81-8215-b9f059df01f2",
     "announcement-bar",
     "header"
   ]

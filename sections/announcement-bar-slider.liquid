@@ -1,0 +1,64 @@
+{{ 'anouncement-bar-slider.css' | asset_url | stylesheet_tag }}
+
+<style>
+  #shopify-section-{{ section.id }} {
+    --bg-color: {{ section.settings.bg_color }}
+  }
+</style>
+
+<div class="announcement-bar-slider__container">
+  {% for iteration in (1..4) %}
+    <div>
+      {%- for block in section.blocks -%}
+        {%- case block.type -%}
+          {%- when 'announcement' -%}
+            {%- if block.settings.text != blank -%}
+              <div
+                class="announcement-bar-slider__item"
+                role="region"
+                aria-label="{{ 'sections.header.announcement' | t }}"
+                {{ block.shopify_attributes }}
+              >
+                <span>{{ block.settings.text | escape }}</span>
+              </div>
+            {%- endif -%}
+        {%- endcase -%}
+      {%- endfor -%}
+    </div>
+  {% endfor %}
+</div>
+
+{% schema %}
+{
+  "name": "Anouncement bar slider",
+  "max_blocks": 12,
+  "class": "announcement-bar-slider-section",
+  "settings": [
+    {
+      "type": "color_background",
+      "id": "bg_color",
+      "label": "Background color",
+      "default": "#1e1619"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "announcement",
+      "name": "t:sections.announcement-bar.blocks.announcement.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "default": "Welcome to our store",
+          "label": "t:sections.announcement-bar.blocks.announcement.settings.text.label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Anouncement bar slider"
+    }
+  ]
+}
+{% endschema %}
