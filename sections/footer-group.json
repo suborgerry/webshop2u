@@ -8,15 +8,22 @@
         "96f03496-0233-4a32-b0cb-8b7b6c2ecd0b": {
           "type": "link_list",
           "settings": {
-            "heading": "MENU",
+            "heading": "",
             "menu": "footer"
+          }
+        },
+        "c160adc9-a142-4649-97bd-b4253f0500c8": {
+          "type": "link_list",
+          "settings": {
+            "heading": "",
+            "menu": "footer-menu-2"
           }
         },
         "aaaede8f-892c-42a3-a39c-24ede30f6052": {
           "type": "text",
           "settings": {
-            "heading": "our promise:",
-            "subtext": "<p>to make unique and high-quality websitesfor your easy and fast sales stratum!<\/p>"
+            "heading": "OUR COMMITMENT",
+            "subtext": "<p>Crafting exceptional, <br\/>top-tier websites <br\/>to supercharge your sales <br\/>journey with ease and speed!<\/p>"
           }
         },
         "a7d9e3c9-e60c-4113-9b69-b8a242fbf71a": {
@@ -28,6 +35,7 @@
       },
       "block_order": [
         "96f03496-0233-4a32-b0cb-8b7b6c2ecd0b",
+        "c160adc9-a142-4649-97bd-b4253f0500c8",
         "aaaede8f-892c-42a3-a39c-24ede30f6052",
         "a7d9e3c9-e60c-4113-9b69-b8a242fbf71a"
       ],

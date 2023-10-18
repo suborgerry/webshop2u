@@ -60,18 +60,18 @@
 }
 
 .footer__content-bottom-copyright {
-  border-top: 1px solid #1B1416;
+  border-top: 1px solid #1b1416;
   padding-top: 50px;
 }
 
 .footer__content-bottom-wrapper .footer__copyright {
-  font-family: 'Plus Jakarta Sans';
+  font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 10px;
   line-height: 13px;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 @media screen and (max-width: 749px) {
@@ -258,7 +258,6 @@
   .footer-block__newsletter {
     flex-direction: column;
   }
-
 }
 
 @media screen and (min-width: 750px) {
@@ -384,7 +383,7 @@ noscript .localization-form__select {
 
 .localization-form__select .icon-caret {
   position: absolute;
-  content: '';
+  content: "";
   height: 0.6rem;
   right: calc(var(--inputs-border-width) + 1.5rem);
   top: calc(50% - 0.2rem);
@@ -436,7 +435,8 @@ noscript .localization-selector.link {
 }
 
 @media screen and (min-width: 750px) {
-  .footer__content-bottom-wrapper:not(.footer__content-bottom-wrapper--center) .footer__copyright {
+  .footer__content-bottom-wrapper:not(.footer__content-bottom-wrapper--center)
+    .footer__copyright {
     text-align: right;
   }
 }
@@ -481,7 +481,7 @@ noscript .localization-selector.link {
 }
 
 .footer-block__details-content .list-menu__item--link {
-  font-family: 'Plus Jakarta Sans';
+  font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -490,7 +490,7 @@ noscript .localization-selector.link {
   align-items: center;
   text-align: center;
   letter-spacing: 0.1em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-block__details-content .list-menu__item--active {
@@ -555,10 +555,14 @@ noscript .localization-selector.link {
 
 .footer-block__image-wrapper {
   box-shadow: var(--media-shadow-horizontal-offset)
-    var(--media-shadow-vertical-offset)
-    var(--media-shadow-blur-radius)
+    var(--media-shadow-vertical-offset) var(--media-shadow-blur-radius)
     rgba(var(--color-shadow), var(--media-shadow-opacity));
-  margin-bottom: max(calc(2rem + var(--media-shadow-vertical-offset) * var(--media-shadow-visible)), 2rem);
+  margin-bottom: max(
+    calc(
+      2rem + var(--media-shadow-vertical-offset) * var(--media-shadow-visible)
+    ),
+    2rem
+  );
   overflow: hidden !important;
 }
 
@@ -576,7 +580,9 @@ noscript .localization-selector.link {
   text-align: center;
 }
 
-.footer-block:only-child > .footer-block__brand-info > .footer-block__image-wrapper {
+.footer-block:only-child
+  > .footer-block__brand-info
+  > .footer-block__image-wrapper {
   margin-left: auto;
   margin-right: auto;
 }
@@ -586,7 +592,9 @@ noscript .localization-selector.link {
   height: auto;
 }
 
-.footer-block:only-child .footer-block__brand-info .footer__list-social.list-social {
+.footer-block:only-child
+  .footer-block__brand-info
+  .footer__list-social.list-social {
   justify-content: center;
 }
 
@@ -620,7 +628,7 @@ noscript .localization-selector.link {
 }
 
 .policies li::before {
-  content: '\00B7';
+  content: "\00B7";
   padding: 0 0.8rem;
 }
 
@@ -683,49 +691,47 @@ noscript .localization-selector.link {
   align-items: center;
 }
 
-
-
 .footer__content-top .footer-block__heading {
-  font-family: 'Plus Jakarta Sans';
+  font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.1em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .footer-block--text h2 {
   max-width: 305px;
   margin: 0 auto;
-  text-align: center;
-  font-family: 'Plus Jakarta Sans';
+  text-align: left;
+  font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 14px;
 }
 
 .footer-details__content {
-  font-family: 'Plus Jakarta Sans';
+  font-family: "Plus Jakarta Sans";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 18px;
   text-align: center;
   letter-spacing: 0.05em;
-  color: #FFFFFF;
-  max-width: 305px;
+  color: #ffffff;
+  /* max-width: 170px; */
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 }
 ul.footer__list-social.list-unstyled.list-social {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 @media screen and (max-width: 749px) {
   .footer-block__details-content {
@@ -734,6 +740,6 @@ ul.footer__list-social.list-unstyled.list-social {
   }
 
   .footer__content-top .footer-block__heading {
-    text-align: center;
+    text-align: left;
   }
 }
