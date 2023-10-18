@@ -6,7 +6,7 @@
     <!-- Slides -->
     {% for mocup in section.blocks %}
       <div class="swiper-slide">
-        <a href="#" class="mocup-link">
+        <a href="{% if mocup.settings.link %}{{ mocup.settings.link }}{% else %}#{% endif %} " class="mocup-link">
           <img class="mocup-image" src="{{ mocup.settings.image | image_url }}">
         </a>
       </div>
@@ -93,6 +93,11 @@
           "type": "image_picker",
           "id": "image",
           "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
         }
       ]
     }
