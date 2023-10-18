@@ -2687,6 +2687,7 @@ details[open] > .header__submenu {
   animation: animateMenuOpen var(--duration-default) ease;
   animation-fill-mode: forwards;
   z-index: 1;
+  background-color: #000;
 }
 
 @media (prefers-reduced-motion) {
@@ -3115,4 +3116,12 @@ div#cart-notification * {
 }
 .quick-add__submit {
   color: white;
+}
+
+#dummy-chat-button-iframe {
+  transition: all 1s ease;
+}
+
+#dummy-chat-button-iframe:hover {
+  transform: rotate(360deg);
 }
