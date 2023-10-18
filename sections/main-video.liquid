@@ -17,6 +17,12 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="main-video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
+    {% for block in section.blocks %}
+      <div class="main-video__text">
+        <h4 class="main-video__text-heading">{{ block.settings.heading }}</h4>
+        <a href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
+      </div>
+    {% endfor %}
     <div
       {% if section.settings.full_width %}
         class="page-width"
@@ -182,6 +188,32 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Text block",
+      "type": "text_block",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "heading",
+          "label": "Heading",
+          "default": "<p>Looking to build a website without any coding hassles? You've come to the right place! Your budget is going to love this!</p>"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label",
+          "default": "Shop now"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        }
+      ]
     }
   ],
   "presets": [
