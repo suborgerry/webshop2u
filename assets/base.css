@@ -2682,7 +2682,7 @@ details[open] > .header__icon--menu .icon-hamburger {
   opacity: 0;
   transform: translateY(-1.5rem);
 }
-
+.list-menu--inline > li:hover details > .header__submenu,
 details[open] > .header__submenu {
   animation: animateMenuOpen var(--duration-default) ease;
   animation-fill-mode: forwards;
@@ -2691,6 +2691,7 @@ details[open] > .header__submenu {
 }
 
 @media (prefers-reduced-motion) {
+  .list-menu--inline > li:hover details > .header__submenu,
   details[open] > .header__submenu {
     opacity: 1;
     transform: translateY(0);
@@ -2748,6 +2749,7 @@ details[open] > .header__submenu {
 
 .header__menu-item:hover {
   color: rgb(var(--color-foreground));
+  text-decoration: underline;
 }
 
 .header__menu-item span {
@@ -2816,6 +2818,10 @@ details[open] > .header__menu-item .icon-caret {
 .header__submenu .header__menu-item {
   justify-content: space-between;
   padding: 0.8rem 2.4rem;
+}
+
+.header__submenu .header__submenu .header__menu-item:hover {
+  text-decoration: underline !important;
 }
 
 .header__submenu .header__submenu .header__menu-item {

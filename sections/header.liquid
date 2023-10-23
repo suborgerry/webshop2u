@@ -66,6 +66,14 @@
     flex-wrap: wrap;
   }
 
+  .list-menu--inline > li {
+    transition: all 0.2s linear;
+  }
+
+  .list-menu--inline > li:hover {
+    transform: scale(1.1);
+  }
+
   summary.list-menu__item {
     padding-right: 2.7rem;
   }
@@ -446,7 +454,13 @@
                             {%- else -%}
                               <details id="Details-HeaderSubMenu-{{ forloop.index }}">
                                 <summary class="header__menu-item link link--text list-menu__item focus-inset caption-large">
-                                  <span>{{ childlink.title | escape }}</span>
+                                  {% if childlink.title == "Themes" %}
+                                  <a href="{{ childlink.url }}" class="list-menu__item link link--text focus-inset caption-large{% if childlink.current %} list-menu__item--active{% endif %}"{% if childlink.current %} aria-current="page"{% endif %}>
+                                    {{ childlink.title | escape }}
+                                  </a>
+                                  {% else %}
+                                    <span>{{ childlink.title | escape }}</span>
+                                  {% endif %}
                                   {% render 'icon-caret' %}
                                 </summary>
                                 <ul id="HeaderMenu-SubMenuList-{{ forloop.index }}" class="header__submenu list-menu motion-reduce">
@@ -674,6 +688,18 @@
 {%- if settings.cart_type == "notification" -%}
   {%- render 'cart-notification', color_scheme: section.settings.color_scheme -%}
 {%- endif -%}
+{% comment %} 
+<script defer="defer">
+  (() => {
+    const headerInlineMenu = document.querySelector('.header__inline-menu');
+    headerInlineMenu.addEventListener('mouseover', evt => {
+      const element = evt.target;
+      console.log(element);
+      if(element.matches('summary')) {
+      }
+    })
+  })()
+</script> {% endcomment %}
 
 {% javascript %}
   class StickyHeader extends HTMLElement {

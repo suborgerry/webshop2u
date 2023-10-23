@@ -22,7 +22,7 @@
         "template--18275873784087__ef933f9b-fe78-42d7-b57a-02170033276f-16795586425fcd8401-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Looking to create a website that's professional, modern, and visually stunning? Look no further! <\/p><p>Our collection features a wide variety of Shopify templates designed for kids' stores, clothing shops, and homeware storefronts your customers won’t overlook! <\/p><p>Each template is fully customizable, allowing you to add your own branding, images, and content to create a website that perfectly reflects your unique style and message.<\/p><p>So why wait? Check out our selection of website templates today and start building the website of your dreams!<\/p>"
+            "text": "<p>Your Vision, Our Templates: Crafting Web Excellence!<\/p>"
           }
         },
         "template--18275873784087__ef933f9b-fe78-42d7-b57a-02170033276f-16795586425fcd8401-2": {
@@ -44,7 +44,7 @@
         "template--18275873784087__ef933f9b-fe78-42d7-b57a-02170033276f-16795586425fcd8401-2"
       ],
       "custom_css": [
-        "p {color: white; font-size: 90%; line-height: 100%;}"
+        "p {color: white; font-size: 90%; line-height: 100%; justify-content: center;}"
       ],
       "settings": {
         "desktop_content_position": "center",

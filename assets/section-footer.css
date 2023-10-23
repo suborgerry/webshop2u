@@ -12,6 +12,10 @@
   display: block;
 }
 
+.footer__content-top.page-width {
+  max-width: 110rem;
+}
+
 @media screen and (max-width: 749px) {
   .footer .grid {
     display: block;
@@ -488,7 +492,7 @@ noscript .localization-selector.link {
   line-height: 18px;
   display: flex;
   align-items: center;
-  text-align: center;
+  /* text-align: center; */
   letter-spacing: 0.1em;
   color: #ffffff;
 }
@@ -600,7 +604,7 @@ noscript .localization-selector.link {
 
 .footer-block__brand-info .footer__list-social.list-social {
   justify-content: flex-start;
-  margin-left: -1.3rem;
+  margin-left: 2.5rem;
   margin-right: -1.3rem;
 }
 
@@ -729,6 +733,11 @@ noscript .localization-selector.link {
   margin: 0 auto;
   text-align: left;
 }
+
+.footer-details__content p {
+  text-wrap: nowrap;
+}
+
 ul.footer__list-social.list-unstyled.list-social {
   display: flex;
   justify-content: center;

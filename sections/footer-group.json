@@ -31,13 +31,21 @@
           "settings": {
             "show_social": true
           }
+        },
+        "ce5e16a3-1517-4a8a-8211-d654ab83721d": {
+          "type": "text",
+          "settings": {
+            "heading": "",
+            "subtext": "<p>WebShop2U Agency<br\/>1542 W Gaylord St<br\/>Long Beach CA<br\/>90813<\/p>"
+          }
         }
       },
       "block_order": [
         "96f03496-0233-4a32-b0cb-8b7b6c2ecd0b",
         "c160adc9-a142-4649-97bd-b4253f0500c8",
         "aaaede8f-892c-42a3-a39c-24ede30f6052",
-        "a7d9e3c9-e60c-4113-9b69-b8a242fbf71a"
+        "a7d9e3c9-e60c-4113-9b69-b8a242fbf71a",
+        "ce5e16a3-1517-4a8a-8211-d654ab83721d"
       ],
       "settings": {
         "color_scheme": "background-1",
