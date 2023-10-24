@@ -20,15 +20,10 @@
           "settings": {
           }
         },
-        "63faf70c-860b-4f77-a302-f6185c6263eb": {
-          "type": "buy-one-variant",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "dropdown"
+            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -45,6 +40,7 @@
         },
         "f5c4c497-df62-4ae9-b8f2-fa7de927d936": {
           "type": "preview_link",
+          "disabled": true,
           "settings": {
             "link": "{{ product.metafields.custom.demo_link.value }}"
           }
@@ -65,7 +61,6 @@
         "vendor",
         "title",
         "price",
-        "63faf70c-860b-4f77-a302-f6185c6263eb",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",

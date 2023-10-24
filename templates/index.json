@@ -6,7 +6,7 @@
         "f60f0994-853e-435f-b53e-24a83fa1a7b2": {
           "type": "text_block",
           "settings": {
-            "heading": "<p>Looking to build a website without any coding hassles? You've come to the right place! Your budget is going to love this!<\/p>",
+            "heading": "<p>Code-free website building: your budget will applaud!<\/p>",
             "button_label": "Shop now",
             "button_link": "shopify:\/\/collections\/all"
           }
@@ -355,7 +355,7 @@
             "number_value": 100,
             "add_symbol": "+",
             "color": "#000000",
-            "sub_info": "Shopify Projects Delovered"
+            "sub_info": "Shopify Projects Delivered"
           }
         },
         "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-2": {
@@ -366,7 +366,7 @@
             "number_value": 17,
             "add_symbol": "+",
             "color": "#000000",
-            "sub_info": "Countries Served"
+            "sub_info": "Сountries"
           }
         },
         "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-3": {
@@ -377,7 +377,7 @@
             "number_value": 17,
             "add_symbol": "$",
             "color": "#000000",
-            "sub_info": "Our clients have earned more than"
+            "sub_info": "Сlients earned"
           }
         },
         "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-4": {
@@ -388,7 +388,7 @@
             "number_value": 1,
             "add_symbol": "$",
             "color": "#000000",
-            "sub_info": "Free license for commercial use"
+            "sub_info": "A FREE commercial use license"
           }
         }
       },
@@ -492,7 +492,7 @@
       ],
       "settings": {
         "sub_heading": "CUSTOMER REVIEWS",
-        "heading": "Don't take our words only",
+        "heading": "Rely on more than just our words!",
         "bg_color": "#ffffff",
         "text_color": "#000000"
       }
@@ -510,7 +510,7 @@
         "template--18276053319959__249cfd1b-9941-4abd-a9bf-d654b5567fbc-16792444341622953e-1": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Subscribe to stay updated on our fresh shopifytemplate arrivals and exclusive deals!<\/p>"
+            "text": "<p>Subscribe to stay updated on our fresh Shopify template arrivals and exclusive deals!<\/p>"
           }
         },
         "template--18276053319959__249cfd1b-9941-4abd-a9bf-d654b5567fbc-16792444341622953e-2": {
