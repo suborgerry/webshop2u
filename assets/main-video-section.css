@@ -63,7 +63,7 @@
     padding: 0px 30px 50px 30px;
     width: 640px;
     text-align: justify;
-    top: 0%;
+    top: calc(50% - 238px / 2);
   }
 }
 
