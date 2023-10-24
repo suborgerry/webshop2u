@@ -317,6 +317,8 @@
                 <b>Store password: 1</b>
               </div>
             {% endif %}
+            {% when 'buy-one-variant' %}
+              {% render 'buy-one-variant' %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
             {%- when 'rating' -%}
@@ -737,6 +739,11 @@
           "label": "Link"
         }
       ]
+    },
+    {
+      "type": "buy-one-variant",
+      "limit": 1,
+      "name": "Buy one variant"
     },
     {
       "type": "buy_buttons",

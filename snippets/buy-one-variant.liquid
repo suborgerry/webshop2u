@@ -1,0 +1,68 @@
+{% for variant in product.variants %}
+  {% comment %}
+    {{ variant.title -}}
+    <br>
+  {% endcomment %}
+  {% if variant.title == 'Download template / No / No' %}
+    <button
+      type="button"
+      class="shopify-payment-button__button--unbranded"
+      id="buy-it-now-button-custom"
+      data-product-id="{{ product.first_available_variant.id }}"
+    >
+      Download template - {{ variant.price | money }}
+    </button>
+    <br>
+    <span class="shopify-payment-button__or">or</span>
+  {% endif %}
+{% endfor %}
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var buyNowButton = document.getElementById('buy-it-now-button-custom');
+
+    buyNowButton.addEventListener('click', function () {
+      var productId = buyNowButton.getAttribute('data-product-id');
+      var productPrice = buyNowButton.getAttribute('data-product-price');
+
+      // Создаем объект данных для отправки
+      var data = {
+        quantity: 1, // Количество товара
+        id: productId, // ID товара
+      };
+
+      // Выполняем POST-запрос для удаления всех товаров из корзины
+      fetch('/cart/clear.js', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      })
+        .then((response) => {
+          if (response.ok) {
+            // После успешной очистки корзины добавляем новый товар
+            return fetch('/cart/add.js', {
+              method: 'POST',
+              headers: {
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify(data),
+            });
+          } else {
+            alert('Произошла ошибка при очистке корзины.');
+          }
+        })
+        .then((response) => {
+          if (response.ok) {
+            // После успешного добавления товара в корзину перенаправляем пользователя на страницу оформления заказа (checkout)
+            window.location.href = '/checkout';
+          } else {
+            alert('Произошла ошибка при попытке добавить товар в корзину.');
+          }
+        })
+        .catch((error) => {
+          console.error('Ошибка:', error);
+        });
+    });
+  });
+</script>
