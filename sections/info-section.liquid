@@ -24,9 +24,7 @@
         {% elsif item.settings.info_type == 'number' %}
           <p class="info-item__number">
             {%- if item.settings.add_symbol == '$' %}{{- item.settings.add_symbol }}{% endif %}
-            <span id="item_number" data-number="{{ item.settings.number_value }}">
-              {{- item.settings.number_value -}}
-            </span>
+            <span id="item_number" data-number="{{ item.settings.number_value }}"> 0 </span>
             {%- if item.settings.add_symbol == '+' %}{{- item.settings.add_symbol }}{% endif %}
           </p>
         {% endif %}
@@ -67,7 +65,7 @@
     };
 
     const animationNumbers = (item) => {
-      const itemValue = item.innerHTML;
+      const itemValue = item.dataset.number;
 
       const num = parseInt(itemValue);
 
