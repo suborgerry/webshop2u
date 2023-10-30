@@ -25,10 +25,34 @@
           "settings": {
           }
         },
+        "836273e7-06e3-49dd-893b-5971d79dacfa": {
+          "type": "individual_variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "variant_name": "Choose a customization package"
+          }
+        },
+        "7a4f57ca-68de-480c-95f2-45afab7b58c2": {
+          "type": "individual_variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "dropdown",
+            "variant_name": "Banner design"
+          }
+        },
+        "e283afa3-48af-4186-bf7b-daf0f5c39c87": {
+          "type": "individual_variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "dropdown",
+            "variant_name": "Logo design"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
-            "picker_type": "dropdown"
+            "picker_type": "dropdown",
+            "exclude_variant": "Choose a customization package"
           }
         },
         "quantity_selector": {
@@ -66,6 +90,9 @@
         "title",
         "price",
         "63faf70c-860b-4f77-a302-f6185c6263eb",
+        "836273e7-06e3-49dd-893b-5971d79dacfa",
+        "7a4f57ca-68de-480c-95f2-45afab7b58c2",
+        "e283afa3-48af-4186-bf7b-daf0f5c39c87",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",

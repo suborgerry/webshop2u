@@ -160,6 +160,7 @@
     },
     "99b01e7a-93b8-4ad4-8fb3-74b672774b72": {
       "type": "contact-form",
+      "disabled": true,
       "custom_css": [
         "h2 {text-align: center;}"
       ],

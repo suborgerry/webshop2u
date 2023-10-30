@@ -347,15 +347,15 @@
     "cca5e155-1275-45d6-aa30-05d2f74dba73": {
       "type": "info-section",
       "blocks": {
-        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-1": {
+        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-3": {
           "type": "info_item",
           "settings": {
-            "info_type": "number",
-            "text_value": "Text value",
-            "number_value": 100,
-            "add_symbol": "+",
+            "info_type": "text",
+            "text_value": "1000000",
+            "number_value": 17,
+            "add_symbol": "$",
             "color": "#000000",
-            "sub_info": "Shopify Projects Delivered"
+            "sub_info": "Сlients earned"
           }
         },
         "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-2": {
@@ -369,15 +369,15 @@
             "sub_info": "Сountries"
           }
         },
-        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-3": {
+        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-1": {
           "type": "info_item",
           "settings": {
-            "info_type": "text",
-            "text_value": "1000000",
-            "number_value": 17,
-            "add_symbol": "$",
+            "info_type": "number",
+            "text_value": "Text value",
+            "number_value": 100,
+            "add_symbol": "+",
             "color": "#000000",
-            "sub_info": "Сlients earned"
+            "sub_info": "Shopify Projects Delivered"
           }
         },
         "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-4": {
@@ -393,15 +393,16 @@
         }
       },
       "block_order": [
-        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-1",
-        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-2",
         "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-3",
+        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-2",
+        "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-1",
         "template--21246599921943__cca5e155-1275-45d6-aa30-05d2f74dba73-info_item-4"
       ],
       "settings": {
         "pre_heading": "A Shopify agency you can rely on.",
         "heading": "Why choose Web Shop 2U Agency?",
-        "sub_heading": "Learn more about Web Shop 2U"
+        "sub_heading": "Learn more about Web Shop 2U",
+        "link_sub_heading": "shopify:\/\/pages\/about"
       }
     },
     "af552303-82a6-42bb-8968-483aaa07a194": {
