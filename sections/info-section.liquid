@@ -3,24 +3,34 @@
 <div class="info-heading-container">
   <p class="info-preheading">{{ section.settings.pre_heading }}</p>
   <h2 class="info-heading">{{ section.settings.heading }}</h2>
-  <p class="info-subheading">{{ section.settings.sub_heading }}</p>
+  <a href="{{ section.settings.link_sub_heading }}" class="info-subheading">{{ section.settings.sub_heading }}</a>
 </div>
 <div class="info-items">
   {% for item in section.blocks %}
-    <div class="info-item" style="--color: {{ item.settings.color }}">
-      {% if item.settings.info_type == 'text' %}
-        <p class="info-item__text">
-          {%- if item.settings.add_symbol == '$' %}{{- item.settings.add_symbol }}{% endif %}
-          <span id="item_number" data-number="{{ item.settings.text_value }}">{{ item.settings.text_value }}</span>
-          {%- if item.settings.add_symbol == '+' %}{{- item.settings.add_symbol }}{% endif %}
-        </p>
-      {% elsif item.settings.info_type == 'number' %}
-        <p class="info-item__number">
-          {%- if item.settings.add_symbol == '$' %}{{- item.settings.add_symbol }}{% endif %}
-          <span id="item_number" data-number="{{ item.settings.number_value }}">{{ item.settings.number_value }}</span>
-          {%- if item.settings.add_symbol == '+' %}{{- item.settings.add_symbol }}{% endif %}
-        </p>
-      {% endif %}
+    <div class="info-item-container">
+      <div class="info-item" style="--color: {{ item.settings.color }}">
+        <div class="info-item-borders">
+          <div class="info-item-border-1"></div>
+          <div class="info-item-border-2"></div>
+          <div class="info-item-border-3"></div>
+          <div class="info-item-border-4"></div>
+        </div>
+        {% if item.settings.info_type == 'text' %}
+          <p class="info-item__text">
+            {%- if item.settings.add_symbol == '$' %}{{- item.settings.add_symbol }}{% endif %}
+            <span id="item_number" data-number="{{ item.settings.text_value }}">{{ item.settings.text_value }}</span>
+            {%- if item.settings.add_symbol == '+' %}{{- item.settings.add_symbol }}{% endif %}
+          </p>
+        {% elsif item.settings.info_type == 'number' %}
+          <p class="info-item__number">
+            {%- if item.settings.add_symbol == '$' %}{{- item.settings.add_symbol }}{% endif %}
+            <span id="item_number" data-number="{{ item.settings.number_value }}">
+              {{- item.settings.number_value -}}
+            </span>
+            {%- if item.settings.add_symbol == '+' %}{{- item.settings.add_symbol }}{% endif %}
+          </p>
+        {% endif %}
+      </div>
       <p class="info-item_subheading">{{ item.settings.sub_info }}</p>
     </div>
   {% endfor %}
@@ -119,6 +129,11 @@
       "id": "sub_heading",
       "label": "Sub heading",
       "default": "Learn more about Handmade Hub"
+    },
+    {
+      "type": "url",
+      "id": "link_sub_heading",
+      "label": "Link sub heading"
     }
   ],
   "blocks": [
