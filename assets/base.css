@@ -5,7 +5,7 @@ body {
   background-repeat: repeat;
   background-size: 100% auto;
   background-position: top; */
-  background: transparent;
+  background: #1e1619 !important;
   position: relative;
 }
 
@@ -20,9 +20,11 @@ body::before {
   left: 0;
   display: block;
   width: 100%;
-  height: -webkit-fill-available;
+  /* height: -webkit-fill-available;
   height: fill-available;
-  height: -moz-available;
+  height: -moz-available; */
+  /* height: intrinsic; */
+  height: 90%;
   z-index: -1;
 }
 
@@ -3032,7 +3034,7 @@ details-disclosure > details {
     rgba(var(--color-foreground), var(--media-border-opacity));
   border-radius: var(--media-radius);
   overflow: visible !important;
-  background-color: rgb(var(--color-background));
+  /* background-color: rgb(var(--color-background)); */
 }
 
 /* .global-media-settings:after {
@@ -3120,6 +3122,7 @@ details-disclosure > details {
   font-family: inherit;
   transition: all 0.2s linear;
   margin: 0.3rem 0;
+  width: 100%;
 }
 
 #buy-it-now-button-custom:hover {
