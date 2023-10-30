@@ -35,4 +35,5 @@
 
 .announcement-bar-slider__item span {
   text-wrap: nowrap;
+  width: max-content;
 }
