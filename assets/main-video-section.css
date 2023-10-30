@@ -1,8 +1,13 @@
+@media screen and (max-width: 480px) {
+  .main-video-section {
+    padding-top: 40px !important;
+  }
+}
 @media screen and (max-width: 680px) {
   .main-video-section {
     display: flex;
-    flex-direction: column-reverse;
-    row-gap: 50px;
+    /* flex-direction: column-reverse; */
+    row-gap: 10px;
   }
 }
 
@@ -39,6 +44,7 @@
 
 .main-video-section video {
   width: 100%;
+  height: intrinsic;
 }
 
 .main-video__text {
@@ -50,11 +56,11 @@
   left: 5%;
 }
 
+.main-video__text {
+  position: absolute;
+  max-width: 45%;
+}
 @media screen and (min-width: 680px) {
-  .main-video__text {
-    position: absolute;
-    max-width: 45%;
-  }
 }
 
 @media screen and (min-width: 990px) {
