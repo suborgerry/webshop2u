@@ -24,12 +24,13 @@ body::before {
   height: fill-available;
   height: -moz-available; */
   /* height: intrinsic; */
-  height: 90%;
+  height: 100%;
   z-index: -1;
 }
 
 body.template-index::before {
   top: 5%;
+  height: 90%;
 }
 
 @media screen and (min-width: 990px) {
