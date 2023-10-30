@@ -807,6 +807,10 @@ a.product__text {
   overflow: auto;
 }
 
+.product-media-modal__content > img {
+  width: 100%;
+}
+
 .product-media-modal__content > *:not(.active),
 .product__media-list .deferred-media {
   display: none;
