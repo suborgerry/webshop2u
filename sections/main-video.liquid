@@ -70,9 +70,15 @@
         </a>
       </div>
     </noscript>
-    <video preload playsinline autoplay muted>
+    <video class="mobile" preload playsinline autoplay muted>
       <source
-        src="{{ section.settings.video_url  }}"
+        src="{{ section.settings.video_url_mobile }}"
+        type="video/mp4"
+      >
+    </video>
+    <video class="desctop" preload playsinline autoplay muted>
+      <source
+        src="{{ section.settings.video_url_desctop  }}"
         type="video/mp4"
       >
     </video>
@@ -121,8 +127,14 @@
     },
     {
       "type": "url",
-      "id": "video_url",
-      "label": "t:sections.video.settings.video_url.label",
+      "id": "video_url_mobile",
+      "label": "Mobile url",
+      "info": "t:sections.video.settings.video_url.info"
+    },
+    {
+      "type": "url",
+      "id": "video_url_desctop",
+      "label": "Desctop url",
       "info": "t:sections.video.settings.video_url.info"
     },
     {
