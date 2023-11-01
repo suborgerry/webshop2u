@@ -30,7 +30,7 @@ body::before {
 
 body.template-index::before {
   top: 5%;
-  height: 90%;
+  height: 95%;
 }
 
 @media screen and (min-width: 990px) {

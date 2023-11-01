@@ -206,7 +206,7 @@
         --variant-pills-shadow-vertical-offset: {{ settings.variant_pills_shadow_vertical_offset }}px;
         --variant-pills-shadow-blur-radius: {{ settings.variant_pills_shadow_blur }}px;
 
-        --popup-bg: url({{ 'group2121.png' | asset_url }});
+        --popup-bg: url({{ '1-2.png' | asset_url }});
       }
 
       *,
@@ -239,6 +239,14 @@
         body {
           font-size: 1.6rem;
         }
+      }
+
+      #tab-box-front-0 .tab-box-content.tab-box-couponcode-content {
+        background-color: #1b1416 !important;
+      }
+
+      .tab-box.tab-front-box.couponx-lightbox-popup .couponx-popup-box .tab-box-content .form-wrap {
+        margin-top: 20px
       }
     {% endstyle %}
 
