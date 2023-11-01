@@ -18,7 +18,8 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/a2eb88113c9744c19e15f9f63bf347e2.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e8b81d35be8c488cb0c73b206614fdc3.mp4",
+        "video_url_desctop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/45451518e83f4679acc77571fb85d9c2.mp4",
         "description": "",
         "full_width": true,
         "color_scheme": "background-1",
@@ -116,70 +117,80 @@
           "type": "mocup",
           "settings": {
             "image": "shopify:\/\/shop_images\/820_1135.png",
-            "link": "shopify:\/\/collections\/clothes-themes"
+            "link": "shopify:\/\/collections\/clothes-themes",
+            "show_bage": false
           }
         },
         "269611c2-96ce-43e5-b795-d57cc2bf6c4f": {
           "type": "mocup",
           "settings": {
             "image": "shopify:\/\/shop_images\/820_1135-2.png",
-            "link": "shopify:\/\/collections\/kid-themes"
+            "link": "shopify:\/\/collections\/kid-themes",
+            "show_bage": false
           }
         },
         "f304d200-2637-4f79-93e0-8eefd2f779ae": {
           "type": "mocup",
           "settings": {
             "image": "shopify:\/\/shop_images\/820_1135-3.png",
-            "link": "shopify:\/\/collections\/fashion-themes"
+            "link": "shopify:\/\/collections\/fashion-themes",
+            "show_bage": true
           }
         },
         "1f0b63e6-ce86-4b68-b492-9d32f911160d": {
           "type": "mocup",
           "settings": {
             "image": "shopify:\/\/shop_images\/820_1135-4.png",
-            "link": "shopify:\/\/collections\/furniture-themes"
+            "link": "shopify:\/\/collections\/furniture-themes",
+            "show_bage": false
           }
         },
         "c790d2d6-c07c-417a-b513-a6615cd96420": {
           "type": "mocup",
           "settings": {
             "image": "shopify:\/\/shop_images\/820_1135-5.png",
-            "link": "shopify:\/\/collections\/fashion-themes"
+            "link": "shopify:\/\/collections\/fashion-themes",
+            "show_bage": false
           }
         },
         "b979eab0-1588-4992-8bd7-7a5180769829": {
           "type": "mocup",
           "settings": {
             "image": "shopify:\/\/shop_images\/820_1135.png",
-            "link": "shopify:\/\/collections\/clothes-themes"
+            "link": "shopify:\/\/collections\/clothes-themes",
+            "show_bage": false
           }
         },
         "8cec5057-337e-4f6f-9f31-04b1fd858523": {
           "type": "mocup",
           "settings": {
             "image": "shopify:\/\/shop_images\/820_1135-2.png",
-            "link": "shopify:\/\/collections\/kid-themes"
+            "link": "shopify:\/\/collections\/kid-themes",
+            "show_bage": false
           }
         },
         "7c2ba933-8b0f-4bca-bc26-29c796d35f65": {
           "type": "mocup",
           "settings": {
             "image": "shopify:\/\/shop_images\/820_1135-3.png",
-            "link": "shopify:\/\/collections\/fashion-themes"
+            "link": "shopify:\/\/collections\/fashion-themes",
+            "show_bage": true
           }
         },
         "ff230cb8-a7ae-496d-8579-dbd205582483": {
           "type": "mocup",
           "settings": {
             "image": "shopify:\/\/shop_images\/820_1135-4.png",
-            "link": "shopify:\/\/collections\/other-themes"
+            "link": "shopify:\/\/collections\/other-themes",
+            "show_bage": false
           }
         },
         "0de08b34-b39e-4b5b-a30b-dde5a7ad74c5": {
           "type": "mocup",
           "settings": {
             "image": "shopify:\/\/shop_images\/820_1135-5.png",
-            "link": "shopify:\/\/collections\/fashion-themes"
+            "link": "shopify:\/\/collections\/fashion-themes",
+            "show_bage": false
           }
         }
       },
