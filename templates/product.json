@@ -20,16 +20,23 @@
           "settings": {
           }
         },
+        "f5c4c497-df62-4ae9-b8f2-fa7de927d936": {
+          "type": "preview_link",
+          "settings": {
+            "link": "{{ product.metafields.custom.demo_link.value }}"
+          }
+        },
         "63faf70c-860b-4f77-a302-f6185c6263eb": {
           "type": "buy-one-variant",
           "settings": {
+            "text": "Purchase A Ready-to-Use Website Template"
           }
         },
         "836273e7-06e3-49dd-893b-5971d79dacfa": {
           "type": "individual_variant_picker",
           "settings": {
             "picker_type": "button",
-            "variant_name": "Choose a customization package"
+            "variant_name": "Go With One Of Our Customization Service Packages!"
           }
         },
         "7a4f57ca-68de-480c-95f2-45afab7b58c2": {
@@ -52,7 +59,7 @@
           "type": "variant_picker",
           "settings": {
             "picker_type": "dropdown",
-            "exclude_variant": "Choose a customization package"
+            "exclude_variant": "Go With One Of Our Customization Service Packages!"
           }
         },
         "quantity_selector": {
@@ -65,12 +72,6 @@
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": true
-          }
-        },
-        "f5c4c497-df62-4ae9-b8f2-fa7de927d936": {
-          "type": "preview_link",
-          "settings": {
-            "link": "{{ product.metafields.custom.demo_link.value }}"
           }
         },
         "description": {
@@ -89,6 +90,7 @@
         "vendor",
         "title",
         "price",
+        "f5c4c497-df62-4ae9-b8f2-fa7de927d936",
         "63faf70c-860b-4f77-a302-f6185c6263eb",
         "836273e7-06e3-49dd-893b-5971d79dacfa",
         "7a4f57ca-68de-480c-95f2-45afab7b58c2",
@@ -96,7 +98,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "f5c4c497-df62-4ae9-b8f2-fa7de927d936",
         "description",
         "share"
       ],
