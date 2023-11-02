@@ -313,14 +313,20 @@
             {%- when 'individual_variant_picker' -%}
               {% render 'individual-product-variant-picker', product: product, block: block, product_form_id: product_form_id, variant_name: block.settings.variant_name %}
             {%- when 'preview_link' -%}
-              {% if block.settings.demo_link != empty %}
-              <div class="product-form__preview">
-                <a href="{{ block.settings.link }}" target="_blank">View demo store</a>
+              {% if block.settings.link != blank %}
+                <div class="product-form__preview">
+                <button onclick="window.open('{{ block.settings.link }}', '_blank');" class="b-btn">
+                  <svg width="100%" height="100%" viewBox="0 0 180 60" preserveAspectRatio="none" class="b-border">
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="bg-line" />
+                    <polyline points="179,1 179,59 1,59 1,1 179,1" class="hl-line" />
+                  </svg>
+                  <span>View demo store</span>
+                </button>
                 <b>Store password: 1</b>
               </div>
             {% endif %}
             {% when 'buy-one-variant' %}
-              {% render 'buy-one-variant' %}
+              {% render 'buy-one-variant', text: block.settings.text %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
             {%- when 'rating' -%}
@@ -777,7 +783,15 @@
     {
       "type": "buy-one-variant",
       "limit": 1,
-      "name": "Buy one variant"
+      "name": "Buy one variant",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "Purchase A Ready-to-Use Website Template"
+        }
+      ]
     },
     {
       "type": "buy_buttons",
