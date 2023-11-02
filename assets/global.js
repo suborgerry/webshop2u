@@ -882,7 +882,7 @@ class VariantSelects extends HTMLElement {
       if (listOfAvailableOptions.includes(input.getAttribute('value'))) {
         input.innerText = input.getAttribute('value');
       } else {
-        input.innerText = window.variantStrings.unavailable_with_option.replace('[value]', input.getAttribute('value'));
+        // input.innerText = window.variantStrings.unavailable_with_option.replace('[value]', input.getAttribute('value'));
       }
     });
   }
