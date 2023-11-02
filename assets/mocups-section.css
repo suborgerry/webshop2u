@@ -20,8 +20,14 @@
 }
 
 .mocups {
-  height: 85vh;
-  /* padding: 0 20px; */
+  height: 65vh;
+}
+
+@media screen and (min-width: 768px) {
+  .mocups {
+    height: 85vh;
+    /* padding: 0 20px; */
+  }
 }
 
 .mocups-swiper {
@@ -43,9 +49,15 @@
 }
 
 .mocup-image {
-  height: max-content;
+  height: -webkit-fill-available;
   width: 100%;
   object-fit: contain;
+}
+
+@media screen and (min-width: 480px) {
+  .mocup-image {
+    height: max-content;
+  }
 }
 
 .mocup_bage {
