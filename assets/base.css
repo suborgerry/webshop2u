@@ -1357,6 +1357,7 @@ button.shopify-payment-button__button--unbranded {
 .product button.shopify-payment-button__button--unbranded {
   background-color: #fff;
   color: #000;
+  transition: all 0.3s ease-in;
 }
 
 .shopify-payment-button__button--branded {

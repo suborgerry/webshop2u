@@ -1,0 +1,102 @@
+{{ 'component-text-points.css' | asset_url | stylesheet_tag }}
+
+{% for point in section.blocks %}
+  <div
+    class="about-points__point position-{{ point.settings.text_position }}"
+    style="--text-position:{{ point.settings.text_position }}"
+  >
+    <h3>{{ point.settings.heading }}</h3>
+    <div class="about-points__separator"><div class="about-points__separator-point"></div></div>
+    {{ point.settings.text }}
+  </div>
+{% endfor %}
+
+<script>
+  (() => {
+    const section = document.querySelector('#shopify-section-{{ section.id }}');
+    const points = Array.from(section.querySelectorAll('.about-points__point'));
+
+    const options = {
+      root: null,
+      rootMargin: '-10%',
+      threshold: 1,
+    };
+
+    const callback = function (entries, observer) {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          checkAnimation(entry.target);
+        }
+      });
+    };
+
+    const observer = new IntersectionObserver(callback, options);
+
+    points.forEach((point) => {
+      observer.observe(point);
+    });
+
+    function checkAnimation(element) {
+      points.forEach((point) => {
+        if (point.matches('.show-animation')) {
+          point.classList.remove('show-animation');
+        }
+      });
+
+      addAnimation(element);
+    }
+
+    function addAnimation(element) {
+      element.classList.add('show-animation');
+    }
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Text points",
+  "class": "shopify-sections about-points page-width",
+  "tag": "section",
+  "settings": [],
+  "blocks": [
+    {
+      "name": "Point",
+      "type": "point",
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Heading",
+          "default": "Heading"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Default text</p>"
+        },
+        {
+          "type": "select",
+          "id": "text_position",
+          "label": "Text position",
+          "options": [
+            {
+              "label": "Left",
+              "value": "row-reverse"
+            },
+            {
+              "label": "Right",
+              "value": "row"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Text points"
+    }
+  ]
+}
+{% endschema %}

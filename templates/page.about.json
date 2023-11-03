@@ -54,6 +54,51 @@
         "padding_bottom": 52
       }
     },
+    "6d3e18bb-d36e-4e2a-8de0-c6b608009fb4": {
+      "type": "text-points",
+      "blocks": {
+        "195372ec-7a21-4ff4-b32d-6946febb962a": {
+          "type": "point",
+          "settings": {
+            "heading": "first impression",
+            "text": "<p>Ever heard the saying, ´You never get a second chance to make a first impression´? Well, that's especially true when it comes to your online store. It's the face of your business, and it can make or break a sale. Picture this: you've got a kids' store brimming with the coolest toys, a clothing shop with trendy outfits, or a homeware haven filled with stunning decor. What's missing? An online presence that WOWs your customers. That's where we come in!<\/p>",
+            "text_position": "row"
+          }
+        },
+        "0e0ed8fd-bc90-4eb0-8f83-1e34d933a1b3": {
+          "type": "point",
+          "settings": {
+            "heading": "partnership",
+            "text": "<p>We're not just another Shopify template provider; we're your partner in making your e-commerce dreams come true. We're on a mission to help Shopify sellers create online stores that are visually captivating, uniquely tailored, and as user-friendly as a warm hug. Picture each template as a piece of art, lovingly customized to suit your brand's personality, and ensure your customers have a delightful shopping experience. We're not about one-size-fits-all solutions; we're all about YOU<\/p>",
+            "text_position": "row-reverse"
+          }
+        },
+        "f389e926-22d1-4e55-8987-16a785ff9a55": {
+          "type": "point",
+          "settings": {
+            "heading": "individuality",
+            "text": "<p>Step into the spotlight because you're not dealing with just another face in the crowd; you've found your energetic cheerleaders, the masterminds of design wizardry, and your dedicated e-commerce partners, all fused into one unstoppable force. Explore the hidden treasures of our Service Packages section, where you'll uncover a wealth of strategies to catapult your Shopify store to greater heights<\/p>",
+            "text_position": "row"
+          }
+        },
+        "b3fef18e-3512-489c-a5f8-e38f4549368c": {
+          "type": "point",
+          "settings": {
+            "heading": "support",
+            "text": "<p>Whether you're giving your current store a dazzling makeover or taking your first bold steps into the exciting world of e-commerce, we're here to accompany you on a journey that's bound to be unforgettable<\/p>",
+            "text_position": "row-reverse"
+          }
+        }
+      },
+      "block_order": [
+        "195372ec-7a21-4ff4-b32d-6946febb962a",
+        "0e0ed8fd-bc90-4eb0-8f83-1e34d933a1b3",
+        "f389e926-22d1-4e55-8987-16a785ff9a55",
+        "b3fef18e-3512-489c-a5f8-e38f4549368c"
+      ],
+      "settings": {
+      }
+    },
     "9074737d-e273-49ae-b9e9-d185f1cb5e44": {
       "type": "image-banner",
       "blocks": {
@@ -106,6 +151,7 @@
     },
     "d49f3626-81da-4548-a477-28e0aa39c295": {
       "type": "custom-about-image",
+      "disabled": true,
       "settings": {
         "button_text": "Choose a template",
         "button_url": "shopify:\/\/collections\/all",
@@ -214,6 +260,7 @@
   "order": [
     "main",
     "4aff525e-4b3b-4900-bf21-36d687074bc1",
+    "6d3e18bb-d36e-4e2a-8de0-c6b608009fb4",
     "9074737d-e273-49ae-b9e9-d185f1cb5e44",
     "d49f3626-81da-4548-a477-28e0aa39c295",
     "fa4c4769-1d3b-4502-a953-3ee7e9dc8d7b",
