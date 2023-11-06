@@ -33,11 +33,11 @@ body.template-index::before {
   height: 95%;
 }
 
-@media screen and (min-width: 990px) {
+/* @media screen and (min-width: 990px) {
   body.template-index::before {
     top: 10%;
   }
-}
+} */
 
 :root,
 .color-background-1 {
