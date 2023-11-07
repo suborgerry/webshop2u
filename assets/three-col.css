@@ -40,6 +40,7 @@
   }
 }
 .thee-col-wrapper__item {
+  position: relative;
   background: #f6b5ce;
   border-radius: 15px;
   padding: 5rem 1rem;
@@ -107,4 +108,11 @@
     padding-left: 15px;
     padding-right: 15px;
   }
+}
+
+.three-col-bage {
+  position: absolute;
+  width: 7rem;
+  top: -15px;
+  left: -15px;
 }
