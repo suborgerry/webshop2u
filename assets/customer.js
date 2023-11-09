@@ -1,3 +1,18 @@
+/** Shopify CDN: Minification failed
+
+Line 16:0 Transforming const to the configured target environment ("es5") is not supported yet
+Line 25:0 Transforming const to the configured target environment ("es5") is not supported yet
+Line 30:0 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 31:13 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 38:14 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 39:4 Transforming const to the configured target environment ("es5") is not supported yet
+Line 50:17 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 57:8 Transforming const to the configured target environment ("es5") is not supported yet
+Line 66:22 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 78:17 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+... and 3 more hidden warnings
+
+**/
 const selectors = {
   customerAddresses: '[data-customer-addresses]',
   addressCountrySelect: '[data-address-country-select]',

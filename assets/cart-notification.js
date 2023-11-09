@@ -1,3 +1,18 @@
+/** Shopify CDN: Minification failed
+
+Line 16:0 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 17:13 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 30:6 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 41:7 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 48:16 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 59:21 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 74:21 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 74:37 Transforming default arguments to the configured target environment ("es5") is not supported yet
+Line 80:17 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 81:4 Transforming const to the configured target environment ("es5") is not supported yet
+... and 2 more hidden warnings
+
+**/
 class CartNotification extends HTMLElement {
   constructor() {
     super();

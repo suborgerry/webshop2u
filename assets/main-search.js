@@ -1,3 +1,17 @@
+/** Shopify CDN: Minification failed
+
+Line 15:0 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 16:13 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 22:21 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 23:4 Transforming let to the configured target environment ("es5") is not supported yet
+Line 35:13 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 42:9 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 43:4 Transforming const to the configured target environment ("es5") is not supported yet
+Line 47:14 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 48:4 Transforming const to the configured target environment ("es5") is not supported yet
+Line 54:12 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+
+**/
 class MainSearch extends SearchForm {
   constructor() {
     super();

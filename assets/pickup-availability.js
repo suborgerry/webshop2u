@@ -1,3 +1,18 @@
+/** Shopify CDN: Minification failed
+
+Line 17:47 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 18:15 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 28:21 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 29:6 Transforming let to the configured target environment ("es5") is not supported yet
+Line 33:6 Transforming const to the configured target environment ("es5") is not supported yet
+Line 38:10 Transforming const to the configured target environment ("es5") is not supported yet
+Line 44:10 Transforming const to the configured target environment ("es5") is not supported yet
+Line 50:22 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 54:15 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 61:17 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+... and 8 more hidden warnings
+
+**/
 if (!customElements.get('pickup-availability')) {
   customElements.define('pickup-availability', class PickupAvailability extends HTMLElement {
     constructor() {

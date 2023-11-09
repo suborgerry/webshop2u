@@ -1,3 +1,16 @@
+/** Shopify CDN: Minification failed
+
+Line 15:41 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 16:15 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 20:8 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 24:8 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 29:19 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 34:6 Transforming const to the configured target environment ("es5") is not supported yet
+Line 35:6 Transforming const to the configured target environment ("es5") is not supported yet
+Line 36:6 Transforming const to the configured target environment ("es5") is not supported yet
+Line 40:6 Transforming const to the configured target environment ("es5") is not supported yet
+
+**/
 if (!customElements.get('product-modal')) {
   customElements.define('product-modal', class ProductModal extends ModalDialog {
     constructor() {

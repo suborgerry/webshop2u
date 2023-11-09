@@ -1,3 +1,18 @@
+/** Shopify CDN: Minification failed
+
+Line 28:296 Transforming const to the configured target environment ("es5") is not supported yet
+Line 28:329 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 28:353 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 28:377 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 28:493 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 28:567 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 28:752 Transforming const to the configured target environment ("es5") is not supported yet
+Line 28:817 Transforming const to the configured target environment ("es5") is not supported yet
+Line 28:974 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 28:988 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+... and 969 more hidden warnings
+
+**/
 /**
  * Swiper 10.3.1
  * Most modern mobile touch slider and framework with hardware accelerated transitions

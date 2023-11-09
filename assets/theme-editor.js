@@ -1,3 +1,14 @@
+/** Shopify CDN: Minification failed
+
+Line 13:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 19:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 22:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 33:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 35:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 41:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 44:4 Transforming const to the configured target environment ("es5") is not supported yet
+
+**/
 function hideProductModal() {
   const productModal = document.querySelectorAll('product-modal[open]');
   productModal && productModal.forEach(modal => modal.hide());

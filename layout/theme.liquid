@@ -1,6 +1,13 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>
+  <head>{% render 'thunder-injects' %}
+
+ <!-- Added by TAPITA SEO SCHEMA-->
+{% if content_for_header contains 'tapita-seo-script-tags' %}
+  {% include 'tapita-seo-schema' %}
+{% endif %}
+<!-- /Added by TAPITA SEO SCHEMA --> 
+
     <!-- Google Tag Manager -->
     <script>
       (function (w, d, s, l, i) {
@@ -49,7 +56,7 @@
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
 
-    {% render 'meta-tags' %}
+    {% render 'meta-tags', page_description: page_description, page_title: page_title  %}
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
@@ -343,5 +350,7 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  </body>
+  
+{% render 'thunder-preload' %}
+</body>
 </html>

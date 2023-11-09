@@ -1,3 +1,18 @@
+/** Shopify CDN: Minification failed
+
+Line 40:0 Transforming const to the configured target environment ("es5") is not supported yet
+Line 42:45 Transforming default arguments to the configured target environment ("es5") is not supported yet
+Line 102:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 103:2 Transforming let to the configured target environment ("es5") is not supported yet
+Line 104:2 Transforming let to the configured target environment ("es5") is not supported yet
+Line 140:40 Transforming default arguments to the configured target environment ("es5") is not supported yet
+Line 151:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 154:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 160:0 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 161:13 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+... and 157 more hidden warnings
+
+**/
 function getFocusableElements(container) {
   return Array.from(
     container.querySelectorAll(

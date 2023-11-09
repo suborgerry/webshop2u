@@ -1,3 +1,14 @@
+/** Shopify CDN: Minification failed
+
+Line 12:0 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 13:13 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 15:4 Transforming const to the configured target environment ("es5") is not supported yet
+Line 18:6 Transforming const to the configured target environment ("es5") is not supported yet
+Line 24:16 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 25:4 Transforming const to the configured target environment ("es5") is not supported yet
+Line 26:4 Transforming const to the configured target environment ("es5") is not supported yet
+
+**/
 class ShowMoreButton extends HTMLElement {
   constructor() {
     super();

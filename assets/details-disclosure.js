@@ -1,3 +1,15 @@
+/** Shopify CDN: Minification failed
+
+Line 13:0 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 14:13 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 23:12 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 29:10 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 39:7 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 47:0 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 48:13 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 53:10 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+
+**/
 class DetailsDisclosure extends HTMLElement {
   constructor() {
     super();

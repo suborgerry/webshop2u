@@ -1,3 +1,18 @@
+/** Shopify CDN: Minification failed
+
+Line 16:0 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 17:13 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 25:4 Transforming const to the configured target environment ("es5") is not supported yet
+Line 28:4 Transforming const to the configured target environment ("es5") is not supported yet
+Line 32:21 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 33:4 Transforming const to the configured target environment ("es5") is not supported yet
+Line 34:6 Transforming const to the configured target environment ("es5") is not supported yet
+Line 41:27 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 41:36 Transforming default arguments to the configured target environment ("es5") is not supported yet
+Line 47:19 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+... and 62 more hidden warnings
+
+**/
 class FacetFiltersForm extends HTMLElement {
   constructor() {
     super();

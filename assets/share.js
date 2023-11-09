@@ -1,3 +1,12 @@
+/** Shopify CDN: Minification failed
+
+Line 11:40 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 12:15 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 35:17 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 44:19 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 53:13 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+
+**/
 if (!customElements.get('share-button')) {
   customElements.define('share-button', class ShareButton extends DetailsDisclosure {
     constructor() {

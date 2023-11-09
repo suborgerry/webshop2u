@@ -1,3 +1,18 @@
+/** Shopify CDN: Minification failed
+
+Line 17:41 Transforming class syntax to the configured target environment ("es5") is not supported yet
+Line 18:15 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 35:18 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 36:6 Transforming const to the configured target environment ("es5") is not supported yet
+Line 40:18 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 41:6 Transforming const to the configured target environment ("es5") is not supported yet
+Line 50:10 Transforming const to the configured target environment ("es5") is not supported yet
+Line 68:6 Transforming const to the configured target environment ("es5") is not supported yet
+Line 73:22 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+Line 83:22 Transforming object literal extensions to the configured target environment ("es5") is not supported yet
+... and 5 more hidden warnings
+
+**/
 if (!customElements.get('media-gallery')) {
   customElements.define('media-gallery', class MediaGallery extends HTMLElement {
     constructor() {

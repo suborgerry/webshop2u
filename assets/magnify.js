@@ -1,3 +1,15 @@
+/** Shopify CDN: Minification failed
+
+Line 25:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 26:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 27:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 28:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 29:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 30:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 38:2 Transforming const to the configured target environment ("es5") is not supported yet
+Line 45:2 Transforming const to the configured target environment ("es5") is not supported yet
+
+**/
 // create a container and set the full-size image as its background
 function createOverlay(image) {
   overlay = document.createElement('div');
