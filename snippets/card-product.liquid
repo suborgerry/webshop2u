@@ -206,8 +206,10 @@
               id="title-{{ section_id }}-{{ card_product.id }}"
             {% endif %}
           >
+            {% assign url = card_product.url %}
+            {% assign newUrl = url | split: '?' %}
             <a
-              href="{{ card_product.url }}"
+              href="{{ newUrl[0] }}"
               id="CardLink-{{ section_id }}-{{ card_product.id }}"
               class="full-unstyled-link"
               aria-labelledby="CardLink-{{ section_id }}-{{ card_product.id }} Badge-{{ section_id }}-{{ card_product.id }}"

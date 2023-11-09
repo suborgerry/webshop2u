@@ -18,8 +18,8 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/e8b81d35be8c488cb0c73b206614fdc3.mp4",
-        "video_url_desctop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/45451518e83f4679acc77571fb85d9c2.mp4",
+        "video_url_mobile": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/83bbec66e4ce41518b25834de3433329.mp4",
+        "video_url_desctop": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/6f53432baca14240b31d534cd1b54f39.mp4",
         "description": "",
         "full_width": true,
         "color_scheme": "background-1",
@@ -116,7 +116,7 @@
         "fdeef6a3-72f5-4062-a96a-6a9a268bcfba": {
           "type": "mocup",
           "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135.png",
+            "image": "shopify:\/\/shop_images\/820_1135_74afb569-5490-43a1-9391-7ae40080b7e9.png",
             "link": "shopify:\/\/collections\/clothes-themes",
             "show_bage": false
           }
@@ -124,7 +124,7 @@
         "269611c2-96ce-43e5-b795-d57cc2bf6c4f": {
           "type": "mocup",
           "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135-2.png",
+            "image": "shopify:\/\/shop_images\/820_1135-2_68577a1c-5639-4515-8e8a-f9c0eb13fc96.png",
             "link": "shopify:\/\/collections\/kid-themes",
             "show_bage": false
           }
@@ -132,7 +132,7 @@
         "f304d200-2637-4f79-93e0-8eefd2f779ae": {
           "type": "mocup",
           "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135-3.png",
+            "image": "shopify:\/\/shop_images\/820_1135-3_e6788ff5-5e26-4c4b-89ec-7070a63a2b69.png",
             "link": "shopify:\/\/collections\/fashion-themes",
             "show_bage": true
           }
@@ -140,55 +140,55 @@
         "1f0b63e6-ce86-4b68-b492-9d32f911160d": {
           "type": "mocup",
           "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135-4.png",
+            "image": "shopify:\/\/shop_images\/820_1135-4_1713319a-ec69-4b92-a373-95362eaabd86.png",
             "link": "shopify:\/\/collections\/furniture-themes",
             "show_bage": false
+          }
+        },
+        "2a8053a0-97ff-441a-ad7c-ba798e068408": {
+          "type": "mocup",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/820_1135_74afb569-5490-43a1-9391-7ae40080b7e9.png",
+            "link": "shopify:\/\/collections\/clothes-themes",
+            "show_bage": false
+          }
+        },
+        "1b58455d-8439-477b-99ad-f9e0d4632202": {
+          "type": "mocup",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/820_1135-2_68577a1c-5639-4515-8e8a-f9c0eb13fc96.png",
+            "link": "shopify:\/\/collections\/kid-themes",
+            "show_bage": false
+          }
+        },
+        "80b4c078-91da-4ebe-9e50-4f2bc96e3b4a": {
+          "type": "mocup",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/820_1135-3_e6788ff5-5e26-4c4b-89ec-7070a63a2b69.png",
+            "link": "shopify:\/\/collections\/fashion-themes",
+            "show_bage": true
           }
         },
         "c790d2d6-c07c-417a-b513-a6615cd96420": {
           "type": "mocup",
           "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135-5.png",
+            "image": "shopify:\/\/shop_images\/820_1135-5_4604e357-dbb1-4321-ba27-5c7fdd6859aa.png",
             "link": "shopify:\/\/collections\/fashion-themes",
             "show_bage": false
           }
         },
-        "b979eab0-1588-4992-8bd7-7a5180769829": {
+        "de8c55fe-79aa-477a-b5c7-88bc8ea71b1e": {
           "type": "mocup",
           "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135.png",
-            "link": "shopify:\/\/collections\/clothes-themes",
+            "image": "shopify:\/\/shop_images\/820_1135-4_1713319a-ec69-4b92-a373-95362eaabd86.png",
+            "link": "shopify:\/\/collections\/furniture-themes",
             "show_bage": false
           }
         },
-        "8cec5057-337e-4f6f-9f31-04b1fd858523": {
+        "3249e781-2cd9-429a-affc-4c64302367e1": {
           "type": "mocup",
           "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135-2.png",
-            "link": "shopify:\/\/collections\/kid-themes",
-            "show_bage": false
-          }
-        },
-        "7c2ba933-8b0f-4bca-bc26-29c796d35f65": {
-          "type": "mocup",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135-3.png",
-            "link": "shopify:\/\/collections\/fashion-themes",
-            "show_bage": true
-          }
-        },
-        "ff230cb8-a7ae-496d-8579-dbd205582483": {
-          "type": "mocup",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135-4.png",
-            "link": "shopify:\/\/collections\/other-themes",
-            "show_bage": false
-          }
-        },
-        "0de08b34-b39e-4b5b-a30b-dde5a7ad74c5": {
-          "type": "mocup",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135-5.png",
+            "image": "shopify:\/\/shop_images\/820_1135-5_4604e357-dbb1-4321-ba27-5c7fdd6859aa.png",
             "link": "shopify:\/\/collections\/fashion-themes",
             "show_bage": false
           }
@@ -199,12 +199,12 @@
         "269611c2-96ce-43e5-b795-d57cc2bf6c4f",
         "f304d200-2637-4f79-93e0-8eefd2f779ae",
         "1f0b63e6-ce86-4b68-b492-9d32f911160d",
+        "2a8053a0-97ff-441a-ad7c-ba798e068408",
+        "1b58455d-8439-477b-99ad-f9e0d4632202",
+        "80b4c078-91da-4ebe-9e50-4f2bc96e3b4a",
         "c790d2d6-c07c-417a-b513-a6615cd96420",
-        "b979eab0-1588-4992-8bd7-7a5180769829",
-        "8cec5057-337e-4f6f-9f31-04b1fd858523",
-        "7c2ba933-8b0f-4bca-bc26-29c796d35f65",
-        "ff230cb8-a7ae-496d-8579-dbd205582483",
-        "0de08b34-b39e-4b5b-a30b-dde5a7ad74c5"
+        "de8c55fe-79aa-477a-b5c7-88bc8ea71b1e",
+        "3249e781-2cd9-429a-affc-4c64302367e1"
       ],
       "settings": {
         "slider_enable": true
