@@ -71,7 +71,7 @@
                 (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
                 calc(100vw - 3rem)
               "
-              alt=""
+              alt="{{ img_info.alt }}"
               height="{{ img_info.height }}"
               width="{{ img_info.width }}"
               loading="lazy"
@@ -92,8 +92,7 @@
               class="full-unstyled-link"
             >
               {%- if card_collection.title != blank -%}
-                
-               {% if title != blank %}{{ title }}{% else %}{{- card_collection.title | escape -}}{% endif %}
+                {% if title != blank %}{{ title }}{% else %}{{- card_collection.title | escape -}}{% endif %}
               {%- else -%}
                 {{ 'onboarding.collection_title' | t }}
               {%- endif -%}
@@ -124,7 +123,7 @@
               class="full-unstyled-link"
             >
               {%- if card_collection.title != blank -%}
-              {% if title != blank %}{{ title }}{% else %}{{- card_collection.title | escape -}}{% endif %}
+                {% if title != blank %}{{ title }}{% else %}{{- card_collection.title | escape -}}{% endif %}
               {%- else -%}
                 {{ 'onboarding.collection_title' | t }}
               {%- endif -%}

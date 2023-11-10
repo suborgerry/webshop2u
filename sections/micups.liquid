@@ -6,8 +6,12 @@
     <!-- Slides -->
     {% for mocup in section.blocks %}
       <div class="swiper-slide">
-        <a href="{% if mocup.settings.link %}{{ mocup.settings.link }}{% else %}#{% endif %} " class="mocup-link">
-          <img class="mocup-image" src="{{ mocup.settings.image | image_url }}">
+        <a
+          href="{% if mocup.settings.link %}{{ mocup.settings.link }}{% else %}#{% endif %} "
+          class="mocup-link"
+          aria-label="Link to themes collection"
+        >
+          <img class="mocup-image" src="{{ mocup.settings.image | image_url }}" alt="Theme previev mocup">
           {% if mocup.settings.show_bage %}
             <p class="mocup_bage ">
               <svg

@@ -19,7 +19,7 @@
   <div class="main-video-section isolate{% unless section.settings.full_width %} page-width{% endunless %} section-{{ section.id }}-padding">
     {% for block in section.blocks %}
       <div class="main-video__text">
-        <h4 class="main-video__text-heading">{{ block.settings.heading }}</h4>
+        <h1 class="main-video__text-heading">{{ block.settings.heading }}</h1>
         <a href="{{ block.settings.button_link }}">{{ block.settings.button_label }}</a>
       </div>
     {% endfor %}
