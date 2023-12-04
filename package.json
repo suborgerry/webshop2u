@@ -3,11 +3,11 @@
   "version": "1.1.0",
   "scripts": {
     "start": "yarn gulp & yarn dev",
-    "dev": "shopify theme dev -s `cat var.store.env` --theme-editor-sync --live-reload hot-reload",
-    "serve": "shopify theme serve --theme-editor-sync",
-    "push": "shopify theme push -s `cat var.store.env`",
-    "push:new": "shopify theme push -s `cat var.store.env` --unpublished",
-    "pull": "shopify theme pull -s `cat var.store.env`",
+    "dev": "shopify theme dev -s `cat var.store.env` --theme-editor-sync --live-reload hot-reload --path shopify",
+    "serve": "shopify theme serve --theme-editor-sync --path shopify",
+    "push": "shopify theme push -s `cat var.store.env` --path shopify",
+    "push:new": "shopify theme push -s `cat var.store.env` --unpublished --path shopify",
+    "pull": "shopify theme pull -s `cat var.store.env` --path shopify",
     "dev-init": "cd dev && yarn install",
     "gulp": "cd dev && gulp"
   },

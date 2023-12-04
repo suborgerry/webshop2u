@@ -1,1 +1,1 @@
-# USE NVM 18.2
+# USE NPM 18.2
