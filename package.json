@@ -10,8 +10,5 @@
     "pull": "shopify theme pull -s `cat var.store.env` --path shopify",
     "dev-init": "cd dev && yarn install",
     "gulp": "cd dev && gulp"
-  },
-  "dependencies": {
-    "swiper": "^9.1.0"
   }
 }

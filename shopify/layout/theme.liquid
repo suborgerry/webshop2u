@@ -1,12 +1,13 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head>{% render 'thunder-injects' %}
+  <head>
+    {% render 'thunder-injects' %}
 
- <!-- Added by TAPITA SEO SCHEMA-->
-{% if content_for_header contains 'tapita-seo-script-tags' %}
-  {% include 'tapita-seo-schema' %}
-{% endif %}
-<!-- /Added by TAPITA SEO SCHEMA --> 
+    <!-- Added by TAPITA SEO SCHEMA -->
+    {% if content_for_header contains 'tapita-seo-script-tags' %}
+      {% include 'tapita-seo-schema' %}
+    {% endif %}
+    <!-- /Added by TAPITA SEO SCHEMA -->
 
     <!-- Google Tag Manager -->
     <script>
@@ -56,7 +57,7 @@
       <meta name="description" content="{{ page_description | escape }}">
     {% endif %}
 
-    {% render 'meta-tags', page_description: page_description, page_title: page_title  %}
+    {% render 'meta-tags', page_description: page_description, page_title: page_title %}
 
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
@@ -258,6 +259,7 @@
     {% endstyle %}
 
     {{ 'base.css' | asset_url | stylesheet_tag }}
+    {{ 'main.css' | asset_url | stylesheet_tag }}
 
     {%- unless settings.type_body_font.system? -%}
       <link rel="preload" as="font" href="{{ settings.type_body_font | font_url }}" type="font/woff2" crossorigin>
@@ -350,7 +352,7 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-  
-{% render 'thunder-preload' %}
-</body>
+
+    {% render 'thunder-preload' %}
+  </body>
 </html>
