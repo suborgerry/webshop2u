@@ -13,11 +13,11 @@ const gulp = require('gulp'),
  */
 const sassSrc = 'sass/**/*.sass';
 const jsSrc = 'js/*.js';
-const assetsDir = '../assets/';
+const assetsDir = '../shopify/assets/';
 
 /**
  * Scss lint
- */
+*/
 gulp.task('scss-lint', function () {
   return gulp.src(sassSrc)
     .pipe(sassLint());
