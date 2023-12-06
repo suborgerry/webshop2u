@@ -152,46 +152,6 @@
             "link": "shopify:\/\/collections\/clothes-themes",
             "show_bage": false
           }
-        },
-        "1802a31b-ace4-49e8-8217-d1e728e339f1": {
-          "type": "mocup",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135.webp",
-            "link": "shopify:\/\/collections\/clothes-themes",
-            "show_bage": false
-          }
-        },
-        "1a48af09-234c-457f-8f1b-537e8a687a12": {
-          "type": "mocup",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135-2.webp",
-            "link": "shopify:\/\/collections\/kid-themes",
-            "show_bage": false
-          }
-        },
-        "e43f871b-565f-469c-a1b9-b7f68a43f284": {
-          "type": "mocup",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135-3.webp",
-            "link": "shopify:\/\/collections\/fashion-themes",
-            "show_bage": true
-          }
-        },
-        "ae993e04-8e23-4e8c-ba1e-a101609dfdb7": {
-          "type": "mocup",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135-4.webp",
-            "link": "shopify:\/\/collections\/furniture-themes",
-            "show_bage": false
-          }
-        },
-        "4813c243-5c83-40af-8706-74a375d144bf": {
-          "type": "mocup",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/820_1135-5.webp",
-            "link": "shopify:\/\/collections\/clothes-themes",
-            "show_bage": false
-          }
         }
       },
       "block_order": [
@@ -199,12 +159,7 @@
         "269611c2-96ce-43e5-b795-d57cc2bf6c4f",
         "f304d200-2637-4f79-93e0-8eefd2f779ae",
         "1f0b63e6-ce86-4b68-b492-9d32f911160d",
-        "2a8053a0-97ff-441a-ad7c-ba798e068408",
-        "1802a31b-ace4-49e8-8217-d1e728e339f1",
-        "1a48af09-234c-457f-8f1b-537e8a687a12",
-        "e43f871b-565f-469c-a1b9-b7f68a43f284",
-        "ae993e04-8e23-4e8c-ba1e-a101609dfdb7",
-        "4813c243-5c83-40af-8706-74a375d144bf"
+        "2a8053a0-97ff-441a-ad7c-ba798e068408"
       ],
       "settings": {
         "slider_enable": true
